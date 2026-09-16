@@ -1,0 +1,14 @@
+.DS_Store
+.AppleDouble
+
+# Generated release packages stay local or become GitHub Release assets.
+/build/
+
+# The imported reference is an audit source, not Docspress public source.
+/reference/
+
+# Local runtime and editor files.
+*.log
+.env
+.env.*
+!.env.example

@@ -1,0 +1,29 @@
+type	title	slug	parent	menu_order	template	excerpt	file
+page	Docspress	docspress		0	default	A quiet Classic Theme for documents, reference material, and long-form reading.	pages/00-docspress.md
+page	Notes	notes		0	default	Short release notes and editorial observations about the Docspress project.	pages/00-notes.md
+page	Start here	start-here	docspress	10	Docs Section Index	The shortest path from a fresh WordPress site to a useful Docspress reading system.	pages/01-start-here.md
+page	What Docspress is	what-docspress-is	start-here	10	default	Docspress keeps content in native WordPress Pages and turns hierarchy into navigation.	pages/01-what-docspress-is.md
+page	Install and activate	install-and-activate	start-here	20	default	A small setup sequence: install the theme, choose the front page, and select the Docs Root.	pages/02-install-and-activate.md
+page	First Docs Tree	first-docs-tree	start-here	30	default	A practical first tree that makes the relationship between parent, order, and reading flow visible.	pages/03-first-docs-tree.md
+page	Content model	content-model	docspress	20	Docs Section Index	The content contract behind the tree: Pages, hierarchy, excerpts, headings, and ordinary Posts.	pages/02-content-model.md
+page	Docs Root and Page hierarchy	docs-root-and-page-hierarchy	content-model	10	default	One root Page defines the document space; its descendants remain portable WordPress content.	pages/04-docs-root-and-page-hierarchy.md
+page	Parent, order, and excerpts	parent-order-and-excerpts	content-model	20	default	Small editorial fields produce a stable directory, readable decks, and predictable navigation.	pages/05-parent-order-and-excerpts.md
+page	Headings and page TOC	headings-and-page-toc	content-model	30	default	H2 and H3 headings become semantic anchors and a quiet on-this-page index.	pages/06-headings-and-page-toc.md
+page	Reading system	reading-system	docspress	30	Docs Section Index	A restrained visual system that gives long documents a margin, a rail, and a steady reading rhythm.	pages/03-reading-system.md
+page	Reading surface	reading-surface	reading-system	10	default	The article is the primary surface; navigation supports the text without competing with it.	pages/07-reading-surface.md
+page	Responsive navigation	responsive-navigation	reading-system	20	default	The same information architecture moves from persistent sidebars to focused mobile drawers.	pages/08-responsive-navigation.md
+page	Images, tables, and quotes	images-tables-and-quotes	reading-system	30	default	Editorial blocks stay ordinary WordPress HTML and are shaped by the theme's reading rules.	pages/09-images-tables-and-quotes.md
+page	Classic Theme architecture	classic-theme-architecture	docspress	40	Docs Section Index	A standard Classic Theme boundary: presentation in the theme, durable content in WordPress.	pages/04-classic-theme-architecture.md
+page	Template hierarchy	template-hierarchy	classic-theme-architecture	10	default	Docspress uses the familiar hierarchy and falls back gracefully when a specialized view is not needed.	pages/10-template-hierarchy.md
+page	Theme and plugin boundary	theme-and-plugin-boundary	classic-theme-architecture	20	default	The theme owns presentation and navigation; editorial extensions belong in optional plugins.	pages/11-theme-and-plugin-boundary.md
+page	Fallback behavior	fallback-behavior	classic-theme-architecture	30	default	A site should remain readable when the Docs Root is empty, a menu is missing, or content is ordinary.	pages/12-fallback-behavior.md
+page	Accessibility and maintenance	accessibility-and-maintenance	docspress	50	Docs Section Index	A usable document site needs keyboard paths, safe output, and a reversible update routine.	pages/05-accessibility-and-maintenance.md
+page	Keyboard and screen readers	keyboard-and-screen-readers	accessibility-and-maintenance	10	default	Skip links, named regions, visible focus, and independent controls keep the reading path legible.	pages/13-keyboard-and-screen-readers.md
+page	Safe content output	safe-content-output	accessibility-and-maintenance	20	default	Docspress preserves WordPress filtering and escapes theme-generated values at their output boundary.	pages/14-safe-content-output.md
+page	Updates, backups, and rollback	updates-backups-and-rollback	accessibility-and-maintenance	30	default	A theme update is a small deployment: verify the package, preserve content, and keep the previous ZIP.	pages/15-updates-backups-and-rollback.md
+page	Release notes	release-notes	docspress	60	Docs Section Index	A transparent record of what this working preview contains and what remains before public release.	pages/06-release-notes.md
+page	0.1.0 working preview	0-1-0-working-preview	release-notes	10	default	The first Docspress-owned preview carries the reference reading model into a standard Classic Theme source tree.	pages/16-0-1-0-working-preview.md
+post	Why Docspress uses Page hierarchy	why-docspress-uses-page-hierarchy		0	default	Page hierarchy is visible, portable, and already understood by WordPress editors.	posts/01-why-page-hierarchy.md
+post	A note on the reading system	a-note-on-the-reading-system		10	default	The visual language is quiet on purpose: the document remains the strongest element on the page.	posts/02-reading-system-note.md
+post	Docspress 0.1.0 working preview	docspress-0-1-0-working-preview		20	default	A short release note for the first branded preview and its current acceptance boundary.	posts/03-0-1-0-preview.md
+post	Maintenance is part of the theme	maintenance-is-part-of-the-theme		30	default	A publishable theme needs a rollback story as much as it needs a polished screenshot.	posts/04-maintenance-note.md

@@ -1,0 +1,46 @@
+body{
+  color:#3c3c43;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans CJK SC","PingFang SC","Hiragino Sans GB",sans-serif;
+  font-size:16px;
+  line-height:1.68;
+  max-width:720px;
+  margin:20px auto;
+}
+h1{margin:0 0 1.25rem;font-size:2.35rem;font-weight:600;line-height:1.08;letter-spacing:-.025em}
+h2{margin:2.1rem 0 .7rem;font-size:1.1875rem;font-weight:600;line-height:1.25}
+h3{margin:1.9rem 0 .65rem;font-size:1.0625rem;font-weight:600;line-height:1.28}
+h4{margin:1.5rem 0 .55rem;font-size:.95rem;font-weight:600;line-height:1.3}
+p{margin:.15rem 0 1.15rem}
+a{color:#e87917;text-underline-offset:.14em}
+ul,ol{margin:.2rem 0 1.15rem;padding-left:1.35rem}
+blockquote{margin:1.8rem 0;padding-left:18px;border-left:1px solid #e87917;color:#4f4f55;font-size:1.0625rem}
+img{max-width:100%;height:auto}
+figcaption{margin-top:6px;color:#7a7a80;font-size:.7rem;line-height:1.42;text-align:right}
+.docspress-figure--margin{max-width:42%}
+.docspress-figure--float{display:block;max-width:46%;margin-left:auto}
+.docspress-figure--breakout{width:100%}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px 8px;border-bottom:1px solid #e2e2e3;text-align:left}
+
+@media (max-width:760px){
+  body{margin:16px 18px}
+  h1{font-size:1.8rem}
+}
+
+.docspress-aside,.docspress-definition{margin:1.25rem 0}
+.docspress-aside{padding:.85rem 1rem;background:#f6f6f7}
+.docspress-aside--note,.docspress-aside--historical{padding:.75rem 0;background:transparent;border-top:1px solid #c6c6ca}
+.docspress-aside__title,.docspress-definition__term{display:block;margin-bottom:.35rem;font-weight:600}
+.docspress-definition{padding:.75rem 1rem;border-left:2px solid #e87917;background:#f6f6f7}
+.docspress-definition__term{color:#e87917}
+figure.docspress-figure--margin,.docspress-figure--margin{max-width:42%}
+figure.docspress-figure--float,.docspress-figure--float{max-width:46%;margin-left:auto}
+figure.docspress-figure--inline,.docspress-figure--inline{max-width:100%}
+figure.docspress-figure--breakout,.docspress-figure--breakout{max-width:100%}
+
+.alignleft{float:left;margin:.25rem 1.25rem 1rem 0}
+.alignright{float:right;margin:.25rem 0 1rem 1.25rem}
+.aligncenter{display:block;margin-left:auto;margin-right:auto}
+.alignnone{margin-left:0;margin-right:0}
+
+.sticky{padding-left:14px;border-left:2px solid rgba(232,121,23,.38)}
