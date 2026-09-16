@@ -1,6 +1,6 @@
 # Docspress WordPress.org 发布升级方案
 
-状态：`CANDIDATE 0.2.3 / 达标工程已完成 / 不提交 WordPress.org`
+状态：`CANDIDATE 0.2.4 / 达标工程已完成 / 不提交 WordPress.org`
 
 更新时间：2026-09-16
 

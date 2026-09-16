@@ -3,7 +3,7 @@ Contributors: wp-im
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.2.3
+Stable tag: 0.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ Yes. The core theme renders ordinary Pages, Posts, media, headings, tables, comm
 
 == Upgrade Notice ==
 
+= 0.2.4 =
+Corrects the document-shell background boundary, restores article-wrapper rhythm, and aligns the index width with the documented reading geometry.
+
 = 0.2.3 =
 Preserves imported documentation blocks through a scoped compatibility layer while content is migrated to namespaced classes.
 
@@ -51,6 +54,11 @@ Namespaced document classes and adds a structured image-placement fallback for b
 * Refines the responsive reading shell and removes decorative Unicode controls from the interface.
 
 == Changelog ==
+
+= 0.2.4 =
+* Keeps the Docs Tree background inside the documentation main frame so it cannot continue through the footer.
+* Restores the intended 28px article wrapper offset on real WordPress page markup, including the compact 22px offset below 980px.
+* Aligns Home and Section Index content to the 924px article-width contract.
 
 = 0.2.3 =
 * Adds scoped compatibility for demo content imported before the `docspress-*` class migration.

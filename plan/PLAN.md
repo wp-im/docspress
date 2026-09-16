@@ -1,6 +1,6 @@
 # Docspress development and publication plan
 
-Status: `PRODUCTION DEMO SITE COMPLETE / RELEASE CANDIDATE 0.2.3 / GITHUB REMOTE PENDING`
+Status: `PRODUCTION DEMO SITE COMPLETE / 0.2.4 LIVE / GITHUB 0.2.3 PUBLISHED · 0.2.4 SYNC PENDING`
 
 WordPress.org 发布升级方案：[`WORDPRESS-ORG-RELEASE-PLAN.md`](WORDPRESS-ORG-RELEASE-PLAN.md)。当前工作预览不能直接视为 WordPress.org 可提交版本；先按该方案清零发布阻塞并完成视觉/运行时验收。
 
@@ -204,8 +204,8 @@ Production gate completed on 2026-09-16:
 
 Upgrade gate completed on 2026-09-16:
 
-- Hardened the theme through 0.2.3: standard `searchform.php`, visible focus, focus trap, reduced motion, scoped document classes, namespaced H2/H3 classes, structured image fallbacks, CSS-drawn controls, RTL alignment, and editor rhythm.
-- Uploaded the exact `build/docspress-0.2.3.zip` to the existing subsite workflow and verified the live version, byte-for-byte CSS/JS equality, public routes, mobile menu, compatibility styling, and zero browser warnings/errors.
+- Hardened the theme through 0.2.4: standard `searchform.php`, visible focus, focus trap, reduced motion, scoped document classes, namespaced H2/H3 classes, structured image fallbacks, CSS-drawn controls, RTL alignment, editor rhythm, bounded Docs Tree background, and shared article-wrapper geometry.
+- Uploaded the exact `build/docspress-0.2.4.zip` to the existing subsite workflow and verified the live version, byte-for-byte CSS/JS equality, public routes, mobile menu, compatibility styling, and zero browser warnings/errors.
 
 ## Phase 7 — release packaging
 
@@ -224,7 +224,7 @@ Version path:
 
 ```text
 0.1.0  working prototype
-0.2.x  content and responsive refinement / current 0.2.3 candidate
+0.2.x  content and responsive refinement / current 0.2.4 candidate
 0.9.0  release candidate / full audit
 1.0.0  public release after real WordPress acceptance
 ```
@@ -250,7 +250,7 @@ Completed now:
 - reference downloaded and checksum-verified;
 - design analysis written;
 - local static code review completed;
-- production site and theme installation are now complete at the 0.2.3 release-candidate boundary; GitHub publication is the remaining external source-publication step.
+- production site and theme installation are now complete at the 0.2.4 release-candidate boundary; the GitHub repository remains published at 0.2.3 until this visual-fix revision is explicitly committed and pushed.
 
 Completed after the initial review:
 

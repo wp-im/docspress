@@ -1,4 +1,4 @@
-# Docspress Theme 0.2.3
+# Docspress Theme 0.2.4
 
 A WordPress Classic Theme for document-led sites. It renders WordPress-managed content and does not store site documentation content in theme files.
 

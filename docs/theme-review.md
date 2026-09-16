@@ -4,7 +4,7 @@ Date: 2026-09-16
 
 Scope: current files under `docspress/theme/`, the current `theme/screenshot.png`, and the archived static HTML/CSS reference pages.
 
-This file began as the pre-hardening review. The 0.2.3 implementation pass has now resolved the mobile search, visible focus, drawer focus boundary, control-glyph, selector namespace, editor rhythm, RTL, and `:has()` fallback findings. The remaining notes are maintenance guidance and evidence gates, not an instruction to undo the current design.
+This file began as the pre-hardening review. The 0.2.4 implementation pass has now resolved the mobile search, visible focus, drawer focus boundary, control-glyph, selector namespace, editor rhythm, RTL, `:has()` fallback, shell-background boundary, and article-wrapper rhythm findings. The remaining notes are maintenance guidance and evidence gates, not an instruction to undo the current design.
 
 ## Executive assessment
 

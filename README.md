@@ -34,4 +34,4 @@ The companion editor plugin is not part of this import. It should be treated as 
 - `scripts/check-theme.sh`: PHP/JavaScript/reference-identity/helper-test checks.
 - `scripts/check-content.sh`: manifest and content-source checks.
 - `scripts/package-release.sh`: one-folder ZIP and SHA-256 generation.
-- `build/docspress-0.2.3.zip`: current locally verified upgrade package.
+- `build/docspress-0.2.4.zip`: current locally verified visual-fix package.

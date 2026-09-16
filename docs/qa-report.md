@@ -10,7 +10,7 @@ Date: 2026-09-16
 - Content source checks: passed for 28 manifest entries and source files.
 - Reference identity scan: passed; no `Humanities` or `hdocs` identity remains in the deployable theme.
 - Package verification: `unzip -t` passed; ZIP has one top-level `docspress/` folder.
-- Current package SHA-256: `3d0d0fe9ca481ff89be8d867d8a3119ce2b33835653e3528739eb41235de2003` (`docspress-0.2.3.zip`).
+- Current package SHA-256: `506aee2d12cf67d1057ecc4e5be14bb3a06fc39ee0fef3405355da0ba105a244` (`docspress-0.2.4.zip`).
 
 ## WordPress Coding Standards
 
@@ -51,4 +51,14 @@ PHPCS 3.13.6 with WordPress Coding Standards 3.4.1 passed with zero errors and z
 - Public home, nested article, search, and 404 routes returned `200, 200, 200, 404` respectively.
 - The public page retained the `wp-theme-docspress` identity, three standard search forms, and no `Humanities`/`hdocs` identity.
 - Browser verification confirmed the namespaced `docspress-section` headings, the scoped compatibility styling for pre-migration `.callout` content, the mobile global menu search, ARIA state, body scroll lock, focus return, and zero console warnings/errors.
+- The package remains one top-level `docspress/` ZIP folder and excludes project docs, reference files, site content, and generated build artifacts from the install package.
+
+## 0.2.4 visual acceptance
+
+- The exact `docspress-0.2.4.zip` was uploaded through the WordPress Network Theme uploader and replaced the active Docspress source without changing the active theme or site content.
+- The live stylesheet reports `Version: 0.2.4`; the live source carries the bounded `main.doc-frame::before` layer and the real `.article-wrap` spacing rule.
+- At `1440`, `1280`, `1024`, `768`, and `390` CSS-pixel viewport widths, Home, Section Index, Content Page, and 404 routes were inspected for horizontal overflow, shell transitions, title baseline, footer placement, and mobile linearization.
+- At `1440` and `390` CSS-pixel viewport widths, the standard Classic Theme surfaces were also checked: Notes/posts index, search results, single Post, date archive, category archive, ordinary Page, and 404. They retain the standard reading/sidebar layout and do not inherit the Docs Tree or article rail.
+- The desktop and compact Content Page title baseline now aligns with the corresponding Home/Section heading rhythm; the desktop article wrapper begins at `28px`, and the compact wrapper begins at `22px` below `981px`.
+- The Docs Tree background is now bounded by the main frame (`position:absolute; top:0; bottom:0`) and ends before the footer; it no longer remains as a viewport-fixed layer behind the footer.
 - The package remains one top-level `docspress/` ZIP folder and excludes project docs, reference files, site content, and generated build artifacts from the install package.

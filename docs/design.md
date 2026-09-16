@@ -162,7 +162,18 @@ The wide reference uses the following baseline:
 
 Use `clamp()` only when the interpolation preserves the relationship. Do not use fluid sizing to make a title or reading measure fill every available pixel.
 
-### 4.3 Spacing scale
+### 4.3 Shell geometry invariant
+
+The documentation shell has two different responsibilities that must not be confused:
+
+- `main.doc-frame` owns the complete navigation-and-reading frame, including the Docs Tree column, article column, optional Page TOC, and bottom breathing room.
+- `.article-wrap` or `.content-wrap` owns the central page composition inside that frame. A Content Page uses the `924px` article contract; Home and Section Index use the same maximum so their title and directory rhythm do not drift into a separate width system.
+
+The Docs Tree background is a decoration of `main.doc-frame`, not a viewport background. Its painted layer must be bounded by the main frame. It must not be `position: fixed`, because a fixed layer can remain visible behind a later footer and make the footer appear to cut through the left rail. When the shell collapses below `981px`, the left background layer disappears with the persistent tree.
+
+The real WordPress wrapper is `.article-wrap`. Any legacy selector such as `.docspress-article-wrap` may remain as a compatibility alias, but it must not be the only selector carrying article spacing. The desktop article offset is `28px`; the compact shell offset is `22px`.
+
+### 4.4 Spacing scale
 
 Use a small rhythm rather than arbitrary margins. The practical scale is:
 
@@ -180,7 +191,7 @@ Interpretation:
 
 Do not apply the same vertical gap to every element. The reading rhythm should distinguish title/deck, deck/meta, heading/paragraph, paragraph/paragraph, and major section transitions.
 
-### 4.4 Borders, radius, and shadow
+### 4.5 Borders, radius, and shadow
 
 - Default border: `1px solid var(--dp-color-line)`.
 - Accent rule: a thin accent border with reduced opacity, never a thick decoration.
