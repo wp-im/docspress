@@ -1,0 +1,25 @@
+{
+  "left": {
+    "B": "46px",
+    "closeHit": true,
+    "focusInside": true,
+    "height": 844,
+    "panelWidth": 273,
+    "ratio": 0.7,
+    "role": "dialog",
+    "scrollY": 0,
+    "top": 46,
+    "width": 390
+  },
+  "right": {
+    "closeHit": true,
+    "focusInside": true,
+    "height": 844,
+    "panelWidth": 343.1953125,
+    "ratio": 0.8799879807692308,
+    "role": "dialog",
+    "tocCount": 0,
+    "top": 46,
+    "width": 390
+  }
+}

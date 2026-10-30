@@ -53,14 +53,15 @@ $lines   = file( $manifest, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
 $entries = array();
 
 foreach ( array_slice( $lines, 1 ) as $line ) {
-	$fields = str_getcsv( $line, "\t" );
+	$fields = str_getcsv( $line, "\t", '"', '' );
 	if ( 8 !== count( $fields ) ) {
 		WP_CLI::error( 'Invalid manifest row: ' . $line );
 	}
 	$entries[] = array_combine( array( 'type', 'title', 'slug', 'parent', 'menu_order', 'template', 'excerpt', 'file' ), $fields );
 }
 
-$ids = array();
+$ids   = array();
+$paths = array();
 foreach ( $entries as $entry ) {
 	$source = docspress_seed_source( $entry['file'] );
 	$type   = 'post' === $entry['type'] ? 'post' : 'page';
@@ -70,7 +71,8 @@ foreach ( $entries as $entry ) {
 		$parent = $ids[ $entry['parent'] ];
 	}
 
-	$existing = get_page_by_path( $entry['slug'], OBJECT, $type );
+	$path     = $parent ? $paths[ $entry['parent'] ] . '/' . $entry['slug'] : $entry['slug'];
+	$existing = get_page_by_path( $path, OBJECT, $type );
 	$post      = array(
 		'post_type'      => $type,
 		'post_status'    => 'publish',
@@ -96,6 +98,7 @@ foreach ( $entries as $entry ) {
 	}
 
 	$ids[ $entry['slug'] ] = (int) $id;
+	$paths[ $entry['slug'] ] = $path;
 	if ( 'page' === $type ) {
 		if ( 'Docs Section Index' === $entry['template'] ) {
 			update_post_meta( $id, '_wp_page_template', 'page-templates/docs-section.php' );

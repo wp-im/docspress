@@ -1,0 +1,26 @@
+[
+  {
+    "B": "20.5px",
+    "barBottom": 20.5,
+    "headerTop": 20.5,
+    "y": 25.5
+  },
+  {
+    "B": "0px",
+    "barBottom": -4.5,
+    "headerTop": 0,
+    "y": 50.5
+  },
+  {
+    "B": "0px",
+    "barBottom": -30,
+    "headerTop": 0,
+    "y": 76
+  },
+  {
+    "B": "0px",
+    "barBottom": -114.5,
+    "headerTop": 0,
+    "y": 160.5
+  }
+]

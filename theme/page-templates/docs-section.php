@@ -10,11 +10,9 @@ get_header();
 
 while ( have_posts() ) :
 	the_post();
+	docspress_breadcrumbs();
 	$section_tree = docspress_get_section_tree( get_the_ID(), 2 );
-	get_template_part( 'template-parts/layout/mobile-local', null, array( 'show_toc' => false ) );
 	?>
-	<main id="primary" class="doc-frame index-frame">
-		<?php get_template_part( 'template-parts/layout/docs-sidebar' ); ?>
 		<div class="content-wrap">
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'index-page' ); ?>>
 				<?php
@@ -23,7 +21,7 @@ while ( have_posts() ) :
 					?>
 					<div class="page-eyebrow"><?php echo esc_html( $eyebrow ); ?></div>
 				<?php endif; ?>
-				<?php the_title( '<h1>', '</h1>' ); ?>
+				<h1><?php echo wp_kses_post( docspress_get_title() ); ?></h1>
 				<?php if ( has_excerpt() ) : ?>
 					<div class="index-deck"><?php echo wp_kses_post( get_the_excerpt() ); ?></div>
 				<?php endif; ?>
@@ -42,7 +40,7 @@ while ( have_posts() ) :
 									<a class="directory-row<?php echo ! empty( $node['children'] ) ? ' is-primary' : ''; ?>" href="<?php echo esc_url( get_permalink( $child ) ); ?>">
 										<span class="directory-num"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
 										<span>
-											<span class="directory-title"><?php echo esc_html( get_the_title( $child ) ); ?></span>
+											<span class="directory-title"><?php echo esc_html( docspress_get_title( $child ) ); ?></span>
 											<span class="directory-desc"><?php echo esc_html( docspress_get_directory_description( $child ) ); ?></span>
 										</span>
 										<span class="directory-arrow" aria-hidden="true"></span>
@@ -53,7 +51,7 @@ while ( have_posts() ) :
 												<?php $subpage = $subnode['page']; ?>
 												<li>
 													<a class="directory-subrow" href="<?php echo esc_url( get_permalink( $subpage ) ); ?>">
-														<span class="directory-subtitle"><?php echo esc_html( get_the_title( $subpage ) ); ?></span>
+														<span class="directory-subtitle"><?php echo esc_html( docspress_get_title( $subpage ) ); ?></span>
 														<span class="directory-arrow" aria-hidden="true"></span>
 													</a>
 												</li>
@@ -69,7 +67,6 @@ while ( have_posts() ) :
 				</section>
 			</article>
 		</div>
-	</main>
 	<?php
 endwhile;
 

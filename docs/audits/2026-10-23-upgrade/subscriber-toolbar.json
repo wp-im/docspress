@@ -1,0 +1,154 @@
+{
+  "role": "subscriber",
+  "on": {
+    "footer": {
+      "display": "block",
+      "h": 177.59375,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 5761.1015625
+    },
+    "h1": {
+      "display": "block",
+      "h": 41.46875,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 32
+    },
+    "height": 720,
+    "left": {
+      "display": "block",
+      "h": 512.9921875,
+      "visibility": "visible",
+      "w": 220,
+      "x": 28,
+      "y": 158
+    },
+    "leftCount": 1,
+    "legacyWrongURL": false,
+    "loggedIn": true,
+    "main": {
+      "display": "block",
+      "h": 5619.1015625,
+      "visibility": "visible",
+      "w": 976,
+      "x": 276,
+      "y": 142
+    },
+    "mainCount": 1,
+    "overflow": 0,
+    "prose": {
+      "display": "block",
+      "h": 4735.734375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424,
+      "y": 502.0625
+    },
+    "right": {
+      "display": "block",
+      "h": 688,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 1287.679931640625,
+      "y": 32
+    },
+    "rightCount": 1,
+    "scrollY": 0,
+    "sidebarTocCount": 0,
+    "title": "长期资料库：阅读、检索与维护 – Docspress",
+    "tocOutsideArticle": 0,
+    "toolbar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "url": "http://localhost:8914/reading-fixture-zh/",
+    "width": 1280
+  },
+  "off": {
+    "footer": {
+      "display": "block",
+      "h": 177.59375,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 5729.1015625
+    },
+    "h1": {
+      "display": "block",
+      "h": 41.46875,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424,
+      "y": 188.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "height": 720,
+    "left": {
+      "display": "block",
+      "h": 512.9921875,
+      "visibility": "visible",
+      "w": 220,
+      "x": 28,
+      "y": 126
+    },
+    "leftCount": 1,
+    "legacyWrongURL": false,
+    "loggedIn": true,
+    "main": {
+      "display": "block",
+      "h": 5619.1015625,
+      "visibility": "visible",
+      "w": 976,
+      "x": 276,
+      "y": 110
+    },
+    "mainCount": 1,
+    "overflow": 0,
+    "prose": {
+      "display": "block",
+      "h": 4735.734375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424,
+      "y": 470.0625
+    },
+    "right": {
+      "display": "block",
+      "h": 720,
+      "visibility": "visible",
+      "w": 384,
+      "x": 1280.8790283203125,
+      "y": 0
+    },
+    "rightCount": 1,
+    "scrollY": 0,
+    "sidebarTocCount": 0,
+    "title": "长期资料库：阅读、检索与维护 – Docspress",
+    "tocOutsideArticle": 0,
+    "toolbar": null,
+    "url": "http://localhost:8914/reading-fixture-zh/",
+    "width": 1280
+  }
+}

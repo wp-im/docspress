@@ -1,8 +1,12 @@
 # Docspress WordPress.org 发布升级方案
 
-状态：`CANDIDATE 0.2.4 / 达标工程已完成 / 不提交 WordPress.org`
+状态：`0.9.1 SELF-HOSTED CANDIDATE / 本轮工程及技术验收完成 / 未提交 WordPress.org`
 
-更新时间：2026-09-16
+更新时间：2026-10-24；下文初始审查问题保留历史日期语境。
+
+本轮验收以 [ACCEPTANCE.md](../docs/audits/2026-10-23-upgrade/ACCEPTANCE.md) 为准：实际最低运行环境、Theme Check、WPCS、原生编辑器、widgets、toolbar、跨引擎和精确部署已留证。本文件原 P0/P1 表不是当前未解决问题清单。正式目录提交前仍需单独确认提交账号/公开署名及名称、slug/商标资格，并按提交时规则复核；不把自测通过写成目录审核通过，也不声明 accessibility-ready。
+
+2026-10-23 复核说明：本文件保留历史发布审查脉络，其中已解决的旧发现不代表当前源码仍缺相应文件；“达标工程已完成”也不代表新一轮已获发布放行。新的产品结构及待验收工作以 [完整升级计划](DOCSPRESS-MATURITY-UPGRADE-PLAN-2026-10-23.md) 和 [本次视觉/结构审查](../docs/audits/2026-10-23/REVIEW.md) 为准。
 
 目标：把当前已能运行、已在 `wordpress.im/docspress/` 自我展示的 Docspress 0.1.0 工作预览，升级为达到 WordPress.org Theme Directory 审核标准的 Classic Theme；当前只完成工程标准和站点验证，不提交 WordPress.org。
 

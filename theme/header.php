@@ -1,6 +1,6 @@
 <?php
 /**
- * Site header.
+ * Site header and shared layout opening.
  *
  * @package Docspress
  */
@@ -14,8 +14,8 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<a class="screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'docspress' ); ?></a>
-<header class="top-header" role="banner">
+<a class="screen-reader-text docspress-skip-link" href="#primary"><?php esc_html_e( 'Skip to content', 'docspress' ); ?></a>
+<header class="top-header" id="docspress-header">
 	<div class="header-inner">
 		<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 			<?php
@@ -28,46 +28,28 @@
 			?>
 			<span><?php bloginfo( 'name' ); ?></span>
 		</a>
-
-		<nav class="global-nav" aria-label="<?php esc_attr_e( 'Primary navigation', 'docspress' ); ?>">
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'primary',
-					'container'      => false,
-					'menu_class'     => 'global-nav-list',
-					'fallback_cb'    => false,
-					'depth'          => 1,
-				)
-			);
-			?>
-		</nav>
-
-		<div class="header-search-form">
-			<?php get_search_form(); ?>
-		</div>
-
-		<button class="header-mobile-btn" id="globalMenuBtn" type="button" aria-expanded="false" aria-controls="globalMenuPanel" aria-label="<?php esc_attr_e( 'Open site menu', 'docspress' ); ?>">
-			<span></span>
+		<button class="header-mobile-btn" id="globalMenuBtn" type="button" aria-expanded="false" aria-controls="globalMenuPanel">
+			<span class="docspress-menu-icon" aria-hidden="true"></span><span><?php esc_html_e( 'Menu', 'docspress' ); ?></span>
 		</button>
+		<div class="docspress-site-menu" id="globalMenuPanel">
+			<nav class="global-nav" aria-label="<?php esc_attr_e( 'Primary navigation', 'docspress' ); ?>">
+				<?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'primary',
+						'container'      => false,
+						'menu_class'     => 'global-nav-list',
+						'fallback_cb'    => 'docspress_primary_menu_fallback',
+						'depth'          => 3,
+					)
+				);
+				?>
+			</nav>
+			<div class="header-search-form"><?php get_search_form(); ?></div>
+		</div>
 	</div>
 </header>
-
-<div class="global-menu-panel" id="globalMenuPanel" aria-label="<?php esc_attr_e( 'Site menu', 'docspress' ); ?>" aria-hidden="true">
-	<div class="global-menu-links">
-		<div class="global-menu-search">
-			<?php get_search_form(); ?>
-		</div>
-		<?php
-		wp_nav_menu(
-			array(
-				'theme_location' => 'primary',
-				'container'      => false,
-				'menu_class'     => 'global-nav-list',
-				'fallback_cb'    => false,
-				'depth'          => 1,
-			)
-		);
-		?>
-	</div>
-</div>
+<?php get_template_part( 'template-parts/layout/mobile-local' ); ?>
+<div class="docspress-shell">
+	<?php get_sidebar( 'left' ); ?>
+	<main id="primary" class="docspress-main" tabindex="-1">

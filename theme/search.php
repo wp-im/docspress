@@ -7,7 +7,6 @@
 
 get_header();
 ?>
-<main id="primary" class="site-main-standard">
 	<header class="standard-article">
 		<h1>
 			<?php
@@ -32,6 +31,5 @@ get_header();
 			<?php get_template_part( 'template-parts/content/content-none' ); ?>
 		<?php endif; ?>
 	</div>
-</main>
 <?php
 get_footer();

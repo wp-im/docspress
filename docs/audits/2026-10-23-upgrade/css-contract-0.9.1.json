@@ -1,0 +1,54 @@
+{
+  "version": "0.9.1",
+  "date": "2026-10-24",
+  "result": "PASS",
+  "scope": "Static CSS contract and computed color math; not a human accessibility certification.",
+  "contrast": [
+    {
+      "foreground": "ink",
+      "background": "bg",
+      "ratio": 13.1,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "ink",
+      "background": "soft",
+      "ratio": 12.13,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "faint",
+      "background": "bg",
+      "ratio": 6.05,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "faint",
+      "background": "soft",
+      "ratio": 5.6,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "accent",
+      "background": "bg",
+      "ratio": 5.02,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "accent",
+      "background": "soft",
+      "ratio": 4.65,
+      "minimum": 4.5
+    }
+  ],
+  "rules": {
+    "leftWidth": true,
+    "rightWidth": true,
+    "safeArea": true,
+    "dynamicHeight": true,
+    "reducedMotion": true,
+    "forcedColors": true,
+    "printHidesNavigation": true,
+    "mobileTargets": true
+  }
+}

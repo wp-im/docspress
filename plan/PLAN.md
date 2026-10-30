@@ -1,6 +1,8 @@
 # Docspress development and publication plan
 
-Status: `PRODUCTION DEMO SITE COMPLETE / 0.2.4 LIVE / GITHUB 0.2.3 PUBLISHED · 0.2.4 SYNC PENDING`
+Status: `0.9.1 LIVE / MATURITY UPGRADE IMPLEMENTED / NO NEW GIT COMMIT OR PUSH`
+
+2026-10-24：本轮 [完整升级计划](DOCSPRESS-MATURITY-UPGRADE-PLAN-2026-10-23.md) 已实施并部署 0.9.1；[最终验收报告](../docs/audits/2026-10-23-upgrade/ACCEPTANCE.md) 为当前交付依据。以下早期阶段和 0.2.4 GitHub 发布记录保留为历史，旧版“右栏 TOC / TOC 抽屉”描述已被当前 design contract 取代。实机手机检查依用户指示改用技术/浏览器模拟；本轮未 commit/push，不提交 WordPress.org。
 
 WordPress.org 发布升级方案：[`WORDPRESS-ORG-RELEASE-PLAN.md`](WORDPRESS-ORG-RELEASE-PLAN.md)。当前工作预览不能直接视为 WordPress.org 可提交版本；先按该方案清零发布阻塞并完成视觉/运行时验收。
 
@@ -200,12 +202,13 @@ Production gate completed on 2026-09-16:
 - Imported `site-content/docspress-demo.xml`: 24 Pages and 4 Posts. The default Hello World post was removed from the new site.
 - Configured the static front page, Notes Posts Page, Docs Root, primary and footer menus, site identity, and footer text.
 - Verified the live home, nested Docs article, Notes archive, search, 404, 390px mobile Contents drawer, Docspress CSS/JS resources, and zero browser console errors.
-- Left GitHub untouched. The WordPress Importer remains installed but inactive for possible future maintenance imports.
+- The WordPress Importer remains installed but inactive for possible future maintenance imports.
 
 Upgrade gate completed on 2026-09-16:
 
 - Hardened the theme through 0.2.4: standard `searchform.php`, visible focus, focus trap, reduced motion, scoped document classes, namespaced H2/H3 classes, structured image fallbacks, CSS-drawn controls, RTL alignment, editor rhythm, bounded Docs Tree background, and shared article-wrapper geometry.
 - Uploaded the exact `build/docspress-0.2.4.zip` to the existing subsite workflow and verified the live version, byte-for-byte CSS/JS equality, public routes, mobile menu, compatibility styling, and zero browser warnings/errors.
+- Pushed commit `e1a8365` to `main`, created tag `v0.2.4`, and verified the GitHub release asset against the local package checksum.
 
 ## Phase 7 — release packaging
 
@@ -250,7 +253,7 @@ Completed now:
 - reference downloaded and checksum-verified;
 - design analysis written;
 - local static code review completed;
-- production site and theme installation are now complete at the 0.2.4 release-candidate boundary; the GitHub repository remains published at 0.2.3 until this visual-fix revision is explicitly committed and pushed.
+- production site, theme installation, and the GitHub v0.2.4 release are complete; the remaining work is the post-release accessibility, editor, archive, and official review audit.
 
 Completed after the initial review:
 
@@ -261,6 +264,6 @@ Completed after the initial review:
 - disposable WordPress 7.1 + PHP 8.5.7 + SQLite activation and runtime acceptance passed, including 28 seeded Pages/Posts and no `WP_DEBUG` log output;
 - pre-write production verification: HTTPS responded, WordPress 7.1 was visible, the Multisite registration surface existed with registration disabled, and `/docspress/` was absent before deployment;
 - production `docspress` site creation, exact theme install/activation, content import, Customizer, menus, cleanup, and core browser acceptance passed;
-- no GitHub remote or push has been performed yet; local Git initialization and the public repository boundary are prepared.
+- GitHub repository `wp-im/docspress` is published at v0.2.4; the release asset was downloaded and its SHA-256 matched the local package.
 
 Next gate: optional pre-1.0 audit for Theme Check, keyboard-only use, 200% zoom, reduced motion, RTL, editor workflows, comments, archives, feeds, and cache/TLS behavior. The working preview itself is live and self-documenting at `https://wordpress.im/docspress/`.

@@ -2,7 +2,12 @@
 set -euo pipefail
 
 root="$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)"
-version="${1:-0.2.4}"
+source_version="$(sed -n 's/^Version: //p' "$root/theme/style.css")"
+version="${1:-$source_version}"
+if [ "$version" != "$source_version" ]; then
+	printf 'Package version must match style.css (%s).\n' "$source_version" >&2
+	exit 1
+fi
 build_dir="$root/build"
 zip_path="$build_dir/docspress-$version.zip"
 sha_path="$zip_path.sha256"

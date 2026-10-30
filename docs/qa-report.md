@@ -1,5 +1,7 @@
 # Docspress QA report
 
+Current acceptance (2026-10-24, deployed 0.9.1): [maturity upgrade report](audits/2026-10-23-upgrade/ACCEPTANCE.md). Everything below is the dated 2026-09-16 history, not the current open-work list or package identity.
+
 Date: 2026-09-16
 
 ## Local checks
@@ -10,7 +12,7 @@ Date: 2026-09-16
 - Content source checks: passed for 28 manifest entries and source files.
 - Reference identity scan: passed; no `Humanities` or `hdocs` identity remains in the deployable theme.
 - Package verification: `unzip -t` passed; ZIP has one top-level `docspress/` folder.
-- Current package SHA-256: `506aee2d12cf67d1057ecc4e5be14bb3a06fc39ee0fef3405355da0ba105a244` (`docspress-0.2.4.zip`).
+- Current package SHA-256: `e69ba4673e7cda4dc62cd1a6d1dd41fd1552a947eeb9f4fd7d8aa3ca034b9112` (`docspress-0.2.4.zip`).
 
 ## WordPress Coding Standards
 
@@ -62,3 +64,9 @@ PHPCS 3.13.6 with WordPress Coding Standards 3.4.1 passed with zero errors and z
 - The desktop and compact Content Page title baseline now aligns with the corresponding Home/Section heading rhythm; the desktop article wrapper begins at `28px`, and the compact wrapper begins at `22px` below `981px`.
 - The Docs Tree background is now bounded by the main frame (`position:absolute; top:0; bottom:0`) and ends before the footer; it no longer remains as a viewport-fixed layer behind the footer.
 - The package remains one top-level `docspress/` ZIP folder and excludes project docs, reference files, site content, and generated build artifacts from the install package.
+
+## GitHub 0.2.4 release acceptance
+
+- Commit `e1a8365` is pushed to `main` and tag `v0.2.4` points to the same commit.
+- GitHub release [`v0.2.4`](https://github.com/wp-im/docspress/releases/tag/v0.2.4) contains `docspress-0.2.4.zip`.
+- The downloaded release asset SHA-256 matches the local package: `e69ba4673e7cda4dc62cd1a6d1dd41fd1552a947eeb9f4fd7d8aa3ca034b9112`.

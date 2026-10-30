@@ -17,16 +17,13 @@ while ( have_posts() ) :
 	the_post();
 	$root_id  = docspress_get_docs_root_id();
 	$sections = $root_id ? docspress_get_direct_children( $root_id ) : array();
-	get_template_part( 'template-parts/layout/mobile-local', null, array( 'show_toc' => false ) );
 	?>
-	<main id="primary" class="doc-frame index-frame">
-		<?php get_template_part( 'template-parts/layout/docs-sidebar' ); ?>
 		<div class="content-wrap">
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'index-page' ); ?>>
 				<?php if ( get_bloginfo( 'description' ) ) : ?>
 					<div class="page-eyebrow"><?php bloginfo( 'description' ); ?></div>
 				<?php endif; ?>
-				<?php the_title( '<h1>', '</h1>' ); ?>
+				<h1><?php echo wp_kses_post( docspress_get_title() ); ?></h1>
 				<?php if ( has_excerpt() ) : ?>
 					<div class="index-deck"><?php echo wp_kses_post( get_the_excerpt() ); ?></div>
 				<?php endif; ?>
@@ -47,7 +44,7 @@ while ( have_posts() ) :
 								<a class="directory-row is-primary" href="<?php echo esc_url( get_permalink( $section ) ); ?>">
 									<span class="directory-num"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
 									<span>
-										<span class="directory-title"><?php echo esc_html( get_the_title( $section ) ); ?></span>
+										<span class="directory-title"><?php echo esc_html( docspress_get_title( $section ) ); ?></span>
 										<span class="directory-desc"><?php echo esc_html( docspress_get_directory_description( $section ) ); ?></span>
 									</span>
 									<span class="directory-arrow" aria-hidden="true"></span>
@@ -60,7 +57,6 @@ while ( have_posts() ) :
 				</section>
 			</article>
 		</div>
-	</main>
 	<?php
 endwhile;
 

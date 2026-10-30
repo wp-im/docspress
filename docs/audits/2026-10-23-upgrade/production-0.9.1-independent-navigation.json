@@ -1,0 +1,13 @@
+{
+  "inertProof": {
+    "mainAncestorInert": true,
+    "shellInert": false
+  },
+  "menuProof": {
+    "bodyLocked": false,
+    "expanded": "true",
+    "leftOpen": false,
+    "menuVisible": "block",
+    "rightOpen": false
+  }
+}

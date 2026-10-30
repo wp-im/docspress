@@ -1,0 +1,24 @@
+[
+  {
+    "axisDelta": 0,
+    "breadcrumbs": 300,
+    "firstParagraph": 460,
+    "footerOutsideShell": true,
+    "footerTop": 1445.2578125,
+    "h1": 460,
+    "shellBottom": 1445.2578125,
+    "toc": 460,
+    "width": 1440
+  },
+  {
+    "axisDelta": 0,
+    "breadcrumbs": 18.328125,
+    "firstParagraph": 18.328125,
+    "footerOutsideShell": true,
+    "footerTop": 2249.1875,
+    "h1": 18.328125,
+    "shellBottom": 2249.1875,
+    "toc": 18.328125,
+    "width": 390
+  }
+]

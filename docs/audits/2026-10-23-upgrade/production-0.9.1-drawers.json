@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Library",
+    "ariaModal": "true",
+    "bodyLocked": true,
+    "closeHit": true,
+    "focusInside": true,
+    "panelWidth": 273,
+    "ratio": 0.7,
+    "role": "dialog",
+    "sidebarToc": 0,
+    "top": 46,
+    "width": 390,
+    "shiftTabInside": true,
+    "returnedFocus": "Library"
+  },
+  {
+    "name": "Sidebar",
+    "ariaModal": "true",
+    "bodyLocked": true,
+    "closeHit": true,
+    "focusInside": true,
+    "panelWidth": 343.1953125,
+    "ratio": 0.8799879807692308,
+    "role": "dialog",
+    "sidebarToc": 0,
+    "top": 46,
+    "width": 390,
+    "shiftTabInside": true,
+    "returnedFocus": "Sidebar"
+  }
+]

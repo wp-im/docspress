@@ -7,7 +7,6 @@
 
 get_header();
 ?>
-<main id="primary" class="site-main-standard">
 	<div class="post-list">
 		<?php if ( have_posts() ) : ?>
 			<?php
@@ -21,6 +20,5 @@ get_header();
 			<?php get_template_part( 'template-parts/content/content-none' ); ?>
 		<?php endif; ?>
 	</div>
-</main>
 <?php
 get_footer();

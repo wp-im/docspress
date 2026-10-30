@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-23",
+  "checks": [
+    {
+      "name": "helpers",
+      "exit_code": 0,
+      "output": "Tree 30 Pages: 0.02 ms\nTree 300 Pages: 0.11 ms\nTree 1000 Pages: 1.02 ms\nDocspress helper tests: PASS\n"
+    },
+    {
+      "name": "runtime",
+      "exit_code": 0,
+      "output": "Docspress runtime settings, widgets and portability: PASS\n"
+    },
+    {
+      "name": "wpcs",
+      "exit_code": 0,
+      "result": {
+        "totals": {
+          "errors": 0,
+          "warnings": 0,
+          "fixable": 0
+        },
+        "files": {
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/functions.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/404.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/widgets.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/enqueue.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/customizer.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/docs.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/toc.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/setup.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/template-tags.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/index.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/archive.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/comments.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/sidebar-left.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/home.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/search.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/header.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/page-templates/docs-section.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/layout/posts-index.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/layout/mobile-local.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/layout/docs-sidebar.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/navigation/docs-tree.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/navigation/page-toc.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/navigation/prev-next.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-docs.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-none.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-page.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-post.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-summary.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/footer.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/single.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/page.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/sidebar.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/front-page.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/searchform.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          }
+        }
+      }
+    },
+    {
+      "name": "php-compatibility",
+      "exit_code": 0,
+      "result": {
+        "totals": {
+          "errors": 0,
+          "warnings": 0,
+          "fixable": 0
+        },
+        "files": {
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/functions.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/404.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/widgets.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/enqueue.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/customizer.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/docs.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/toc.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/setup.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/inc/template-tags.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/index.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/archive.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/comments.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/sidebar-left.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/home.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/search.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/header.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/page-templates/docs-section.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/layout/posts-index.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/layout/mobile-local.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/layout/docs-sidebar.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/navigation/docs-tree.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/navigation/page-toc.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/navigation/prev-next.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-docs.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-none.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-page.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-post.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/template-parts/content/content-summary.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/footer.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/single.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/page.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/sidebar.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/front-page.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          },
+          "/Users/zhanbin/Documents/ChatGPT/wordpress-im-projects/docspress/theme/searchform.php": {
+            "errors": 0,
+            "warnings": 0,
+            "messages": []
+          }
+        }
+      }
+    },
+    {
+      "name": "http-smoke",
+      "exit_code": 0,
+      "output": "200 /: PASS\n200 /docspress/content-model/: PASS\n200 /docspress/reading-system/reading-surface/: PASS\n200 /reading-fixture-zh/: PASS\n200 /reading-fixture-ja/: PASS\n200 /reading-fixture-en/: PASS\n200 /?p=43: PASS\n200 /notes/: PASS\n200 /category/uncategorized/: PASS\n200 /?author=1: PASS\n200 /2026/: PASS\n200 /?s=reading: PASS\n200 /?s=ZZZXQNONEXISTENT: PASS\n404 /definitely-not-a-page/: PASS\n200 /docspress/protected-fixture/: PASS\n200 /?p=1171: PASS\n200 /?p=1169: PASS\n200 /?p=1148: PASS\n200 /?p=1178: PASS\n200 /?p=1000: PASS\n200 /?p=1788: PASS\n200 /?p=1783: PASS\nDocspress anonymous HTTP contracts: 22 PASS\n"
+    }
+  ]
+}

@@ -1,80 +1,17 @@
 /*
-Theme Name: Docspress
-Description: Basic right-to-left adjustments for the Docspress Classic Theme.
-*/
-
-body.rtl .global-nav,
-body.rtl .header-search-form {
-	margin-left: 0;
-	margin-right: auto;
+ * Docspress logical layout adjustments. Content direction is set by WordPress.
+ */
+body.rtl.docspress-has-left .docspress-shell {background-image:linear-gradient(to left,var(--sidebar) calc(var(--dp-pad) + var(--dp-left)),transparent 0)}
+body.rtl .tree-toggle::before {transform:rotate(225deg)}
+body.rtl .tree-toggle[aria-expanded="true"]::before {transform:rotate(135deg)}
+body.rtl .directory-arrow {transform:rotate(225deg)}
+body.rtl .docspress-search-form .search-submit {border-radius:5px 0 0 5px}
+@media (max-width:1439px) {
+  .docspress-js body.rtl .docspress-sidebar--right {transform:translateX(-102%)}
+  .docspress-js body.rtl .docspress-sidebar--right.is-open {transform:translateX(0)}
 }
-
-body.rtl .doc-frame::before {
-	left: auto;
-	right: 0;
-	border-right: 0;
-	border-left: 1px solid var(--line);
-}
-
-body.rtl .left-sidebar {
-	padding-right: 2px;
-	padding-left: 18px;
-}
-
-body.rtl .right-toc {
-	padding-right: 14px;
-	padding-left: 0;
-	border-right: 1px solid var(--line);
-	border-left: 0;
-}
-
-body.rtl .tree-children {
-	margin-right: 11px !important;
-	margin-left: 0 !important;
-	padding-right: 11px !important;
-	padding-left: 0 !important;
-	border-right: 1px solid #dedee1;
-	border-left: 0;
-}
-
-body.rtl .docspress-section,
-body.rtl .docspress-margin {
-	text-align: left;
-}
-
-body.rtl .right-toc a {
-	padding-right: 10px;
-	padding-left: 0;
-	border-right: 1px solid transparent;
-	border-left: 0;
-}
-
-body.rtl .right-toc a.active {
-	border-right-color: rgba(232, 121, 23, .65);
-}
-
-body.rtl .directory-arrow {
-	transform: scaleX(-1);
-}
-
-body.rtl .docspress-prevnext .docspress-next-link {
-	text-align: left;
-}
-
-@media (max-width: 640px) {
-	body.rtl .docspress-section,
-	body.rtl .docspress-margin {
-		text-align: right;
-	}
-
-	body.rtl .docspress-note::before {
-	margin-right: 0;
-	margin-left: auto;
-	}
-
-	body.rtl .docspress-prevnext .docspress-next-link,
-	body.rtl .docspress-prevnext .docspress-next-link .docspress-nav-kicker,
-	body.rtl .docspress-prevnext .docspress-next-link .docspress-nav-title {
-		text-align: left;
-	}
+@media (max-width:1023px) {
+  body.rtl.docspress-has-left .docspress-shell {background:none}
+  .docspress-js body.rtl .docspress-sidebar--left {transform:translateX(102%)}
+  .docspress-js body.rtl .docspress-sidebar--left.is-open {transform:translateX(0)}
 }

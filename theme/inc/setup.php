@@ -16,7 +16,7 @@ if ( ! function_exists( 'docspress_setup' ) ) {
 	function docspress_setup() {
 		global $content_width;
 		if ( ! isset( $content_width ) ) {
-			$content_width = 924;
+			$content_width = 680;
 		}
 
 		load_theme_textdomain( 'docspress', get_template_directory() . '/languages' );
@@ -26,6 +26,8 @@ if ( ! function_exists( 'docspress_setup' ) ) {
 		add_theme_support( 'post-thumbnails' );
 		add_theme_support( 'responsive-embeds' );
 		add_theme_support( 'editor-styles' );
+		add_theme_support( 'align-wide' );
+		add_theme_support( 'wp-block-styles' );
 		add_post_type_support( 'page', 'excerpt' );
 		add_theme_support(
 			'html5',
@@ -53,8 +55,9 @@ if ( ! function_exists( 'docspress_setup' ) ) {
 
 		register_nav_menus(
 			array(
-				'primary' => __( 'Primary Menu', 'docspress' ),
-				'footer'  => __( 'Footer Menu', 'docspress' ),
+				'primary'                   => __( 'Primary Menu', 'docspress' ),
+				'footer'                    => __( 'Footer Menu', 'docspress' ),
+				'docspress-primary-sidebar' => __( 'Left Sidebar Menu', 'docspress' ),
 			)
 		);
 	}

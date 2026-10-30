@@ -15,7 +15,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return int
  */
 function docspress_get_docs_root_id() {
-	return absint( get_theme_mod( 'docspress_root_page', 0 ) );
+	$id = absint( get_theme_mod( 'docspress_root_page', 0 ) );
+	return $id && 'publish' === get_post_status( $id ) ? $id : 0;
 }
 
 /**
@@ -53,7 +54,8 @@ function docspress_sort_pages( $pages ) {
 			if ( 0 !== $order_compare ) {
 				return $order_compare;
 			}
-			return strnatcasecmp( (string) $a->post_title, (string) $b->post_title );
+			$title_compare = strnatcasecmp( (string) $a->post_title, (string) $b->post_title );
+			return 0 !== $title_compare ? $title_compare : (int) $a->ID <=> (int) $b->ID;
 		}
 	);
 	return $pages;
@@ -71,29 +73,31 @@ function docspress_sort_pages( $pages ) {
  * @return array
  */
 function docspress_build_page_tree( $pages, $parent_id, $max_depth = 0, $depth = 1 ) {
-	if ( $max_depth > 0 && $depth > $max_depth ) {
-		return array();
+	$groups = array();
+	foreach ( $pages as $page ) {
+		$groups[ (int) $page->post_parent ][] = $page;
 	}
-
-	$children = array_values(
-		array_filter(
-			$pages,
-			static function ( $page ) use ( $parent_id ) {
-				return (int) $page->post_parent === (int) $parent_id;
+	foreach ( $groups as $id => $children ) {
+		$groups[ $id ] = docspress_sort_pages( $children );
+	}
+	$walk = static function ( $parent_key, $level, $path ) use ( &$walk, $groups, $max_depth ) {
+		if ( ( $max_depth > 0 && $level > $max_depth ) || isset( $path[ $parent_key ] ) ) {
+			return array();
+		}
+		$path[ $parent_key ] = true;
+		$nodes               = array();
+		foreach ( $groups[ $parent_key ] ?? array() as $page ) {
+			if ( isset( $path[ (int) $page->ID ] ) ) {
+				continue;
 			}
-		)
-	);
-	$children = docspress_sort_pages( $children );
-
-	$tree = array();
-	foreach ( $children as $page ) {
-		$tree[] = array(
-			'page'     => $page,
-			'children' => docspress_build_page_tree( $pages, $page->ID, $max_depth, $depth + 1 ),
-		);
-	}
-
-	return $tree;
+			$nodes[] = array(
+				'page'     => $page,
+				'children' => $walk( (int) $page->ID, $level + 1, $path ),
+			);
+		}
+		return $nodes;
+	};
+	return $walk( (int) $parent_id, $depth, array() );
 }
 
 /**
@@ -109,8 +113,9 @@ function docspress_get_docs_pages() {
 		return array();
 	}
 
-	if ( isset( $cache[ $root_id ] ) ) {
-		return $cache[ $root_id ];
+	$key = get_current_blog_id() . ':' . get_locale() . ':' . $root_id;
+	if ( isset( $cache[ $key ] ) ) {
+		return $cache[ $key ];
 	}
 
 	$pages = get_pages(
@@ -122,8 +127,8 @@ function docspress_get_docs_pages() {
 		)
 	);
 
-	$cache[ $root_id ] = is_array( $pages ) ? $pages : array();
-	return $cache[ $root_id ];
+	$cache[ $key ] = is_array( $pages ) ? $pages : array();
+	return $cache[ $key ];
 }
 
 /**
@@ -133,8 +138,13 @@ function docspress_get_docs_pages() {
  * @return array
  */
 function docspress_get_docs_tree( $max_depth = 0 ) {
-	$root_id = docspress_get_docs_root_id();
-	return $root_id ? docspress_build_page_tree( docspress_get_docs_pages(), $root_id, $max_depth ) : array();
+	static $cache = array();
+	$root_id      = docspress_get_docs_root_id();
+	$key          = get_current_blog_id() . ':' . get_locale() . ':' . $root_id . ':' . $max_depth;
+	if ( ! isset( $cache[ $key ] ) ) {
+		$cache[ $key ] = $root_id ? docspress_build_page_tree( docspress_get_docs_pages(), $root_id, $max_depth ) : array();
+	}
+	return $cache[ $key ];
 }
 
 /**
@@ -145,12 +155,13 @@ function docspress_get_docs_tree( $max_depth = 0 ) {
  */
 function docspress_flatten_page_tree( $tree ) {
 	$flat = array();
-	foreach ( $tree as $node ) {
-		$flat[] = $node['page'];
-		if ( ! empty( $node['children'] ) ) {
-			$flat = array_merge( $flat, docspress_flatten_page_tree( $node['children'] ) );
+	$walk = static function ( $nodes ) use ( &$walk, &$flat ) {
+		foreach ( $nodes as $node ) {
+			$flat[] = $node['page'];
+			$walk( $node['children'] );
 		}
-	}
+	};
+	$walk( $tree );
 	return $flat;
 }
 
@@ -161,7 +172,12 @@ function docspress_flatten_page_tree( $tree ) {
  * @return array{previous:WP_Post|null,next:WP_Post|null}
  */
 function docspress_get_prev_next_pages( $page_id ) {
-	$pages = docspress_flatten_page_tree( docspress_get_docs_tree() );
+	static $cache = array();
+	$key          = get_current_blog_id() . ':' . get_locale() . ':' . docspress_get_docs_root_id();
+	if ( ! isset( $cache[ $key ] ) ) {
+		$cache[ $key ] = docspress_flatten_page_tree( docspress_get_docs_tree() );
+	}
+	$pages = $cache[ $key ];
 	$ids   = array_map(
 		static function ( $page ) {
 			return (int) $page->ID;
@@ -271,7 +287,7 @@ function docspress_render_tree_nodes( $nodes, $current_id, $open_ids, $depth = 1
 		echo '<div class="tree-row' . ( $has_children ? '' : ' no-toggle' ) . '">';
 		if ( $has_children ) {
 			/* translators: %s: page title. */
-			$toggle_label = sprintf( __( 'Toggle %s', 'docspress' ), $page->post_title );
+			$toggle_label = sprintf( __( 'Toggle %s', 'docspress' ), docspress_get_title( $page ) );
 			echo '<button class="tree-toggle" type="button" data-tree-key="' . esc_attr( (string) $page->ID ) . '" aria-expanded="' . ( $is_open ? 'true' : 'false' ) . '" aria-controls="' . esc_attr( $instance . '-subtree-' . $page->ID ) . '" aria-label="' . esc_attr( $toggle_label ) . '"></button>';
 		} else {
 			echo '<span class="tree-spacer" aria-hidden="true"></span>';
@@ -284,10 +300,14 @@ function docspress_render_tree_nodes( $nodes, $current_id, $open_ids, $depth = 1
 			$link_classes[] = 'section-current';
 		}
 
-		echo '<a class="' . esc_attr( implode( ' ', $link_classes ) ) . '" href="' . esc_url( get_permalink( $page ) ) . '"' . ( $is_current ? ' aria-current="page"' : '' ) . '>' . esc_html( get_the_title( $page ) ) . '</a>';
+		echo '<a class="' . esc_attr( implode( ' ', $link_classes ) ) . '" href="' . esc_url( get_permalink( $page ) ) . '"' . ( $is_current ? ' aria-current="page"' : '' ) . '>' . esc_html( docspress_get_title( $page ) ) . '</a>';
 		echo '</div>';
 		if ( $has_children ) {
-			docspress_render_tree_nodes( $node['children'], $current_id, $open_ids, $depth + 1, (int) $page->ID, $instance );
+			if ( $depth >= 2 && ! $is_open && count( docspress_get_docs_pages() ) > 200 ) {
+				echo '<ul class="tree-children" id="' . esc_attr( $instance . '-subtree-' . $page->ID ) . '"><li class="docspress-tree-continuation"><a href="' . esc_url( get_permalink( $page ) ) . '">' . esc_html__( 'Open this section', 'docspress' ) . '</a></li></ul>';
+			} else {
+				docspress_render_tree_nodes( $node['children'], $current_id, $open_ids, $depth + 1, (int) $page->ID, $instance );
+			}
 		}
 		echo '</li>';
 	}

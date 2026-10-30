@@ -1,0 +1,18 @@
+{
+  "version": "0.9.1",
+  "date": "2026-10-24",
+  "route": "0.9.1 -> 0.9.0 -> 0.9.1",
+  "environment": "Local isolated WordPress",
+  "before": {
+    "content": "953b1db7eff642926ad35eb5a3da7860338161397d63561d9820d17a3b541347",
+    "widgets": "d4b0a8d59aff8526beeaa05df3254896fa6b32293c90e588842dd80d97fb073c",
+    "theme_mods": "666636bb40f1edbcb6a391a6f9bce1327524b8c0e056dabc98142494f1c58de8"
+  },
+  "after": {
+    "content": "953b1db7eff642926ad35eb5a3da7860338161397d63561d9820d17a3b541347",
+    "widgets": "d4b0a8d59aff8526beeaa05df3254896fa6b32293c90e588842dd80d97fb073c",
+    "theme_mods": "666636bb40f1edbcb6a391a6f9bce1327524b8c0e056dabc98142494f1c58de8"
+  },
+  "match": true,
+  "installedCopyMatchesSource": true
+}

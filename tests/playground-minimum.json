@@ -1,0 +1,10 @@
+{
+  "preferredVersions": { "php": "7.4", "wp": "6.5" },
+  "steps": [
+    { "step": "activateTheme", "themeFolderName": "docspress" },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; ob_start(); require '/docspress-tests/test-docspress.php'; $result = ob_get_clean(); file_put_contents('/wordpress/docspress-minimum-result.json', json_encode(array('php'=>PHP_VERSION,'wordpress'=>get_bloginfo('version'),'tests'=>$result,'theme'=>get_stylesheet()))); $id=wp_insert_post(array('post_type'=>'page','post_status'=>'publish','post_name'=>'minimum-reading','post_title'=>'Minimum runtime reading','post_content'=>'<h2 id=\"stable\">First heading</h2><p>Native content with a durable anchor.</p><h2>第二章</h2><p>中文与日本語の資料。</p>')); update_option('show_on_front','page'); update_option('page_on_front',$id);"
+    }
+  ]
+}

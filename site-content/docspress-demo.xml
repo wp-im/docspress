@@ -289,7 +289,13 @@
 <p>Do not choose a heading level for size. Choose it for structure. The CSS supplies the visual scale, while the HTML communicates the outline to browsers and assistive technology.</p>
 
 <h2>Anchors are stable enough to share</h2>
-<p>Existing IDs are preserved. Missing IDs are generated from the heading text, and duplicates receive a numeric suffix. This keeps pasted editorial HTML useful without requiring manual anchor maintenance.</p>]]></content:encoded>
+<p>Existing unique IDs are preserved, including Unicode IDs. Missing IDs are generated from the heading text; collisions with other headings or content IDs receive a numeric suffix. Inline emphasis, links, language attributes and grouped blocks survive heading decoration.</p>
+
+<h3>Keep important links explicit</h3>
+<p>A generated ID changes when its heading text changes. For a frequently cited section, set an explicit HTML anchor in the Block Editor's Advanced settings or an id attribute in the Classic Editor. Keep that ID when revising the title. An anchor is a public address, not a disposable styling hook.</p>
+
+<h2>Contents belong to this article</h2>
+<p>The expandable On this page index is inside the article, never in the right widget panel. It appears when at least two eligible headings are present. Appearance &gt; Customize &gt; Docspress lets the site owner choose H2, H2 and H3, or no article contents. Password-protected bodies do not expose headings before the reader unlocks the document.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[H2 and H3 headings become semantic anchors and a quiet on-this-page index.]]></excerpt:encoded>
 		<wp:post_id>1010</wp:post_id>
 		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
@@ -369,13 +375,19 @@
 		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1013</guid>
 		<description></description>
 		<content:encoded><![CDATA[<h2>Wide screens keep the map visible</h2>
-<p>The Docs Tree stays in a persistent left rail. The optional page TOC stays on the right. The article occupies the space between them.</p>
+<p>Every template has a left library panel and a right widget panel by default. At 1440 CSS pixels and above, both stay beside the reading surface. The footer starts after the complete shell, not behind a fixed sidebar background.</p>
 
 <h2>Tablet keeps the article grammar</h2>
-<p>As the viewport narrows, the global and local navigation simplify before the document itself is compressed. The article rail remains long enough to preserve its editorial relationship.</p>
+<p>Below 1440 pixels, the right panel moves into a drawer opened by the Sidebar button. Below 1024 pixels, Library opens the left drawer too. Medium screens use a plain reading column; decorative heading rails never take space away from a narrow article.</p>
 
 <h2>Phone prioritizes one task</h2>
-<p>The chapter tree, page TOC, and global menu become separate drawers. Each has an independent opener, close control, Escape behavior, and focus return path.</p>]]></content:encoded>
+<p>The left drawer enters from the left and occupies no more than 70% of the viewport. The right drawer enters from the right and uses at most 88%, below the 90% limit. Each has a visible close button, a modal backdrop, keyboard focus containment, Escape, and focus return. Opening a panel never duplicates its widgets.</p>
+
+<h2>The article owns its contents</h2>
+<p>The On this page disclosure belongs inside the article, below its heading and metadata. It is not a right-sidebar widget. The header Menu is a separate disclosure for the site's primary menu and search, not another copy of the Library tree.</p>
+
+<h2>Logged-in reading is still reading</h2>
+<p>The header, local controls, panels, and anchor offset share the actual visible toolbar height. On small phones the WordPress toolbar scrolls away; Docspress reduces its offset to zero instead of leaving an empty 46-pixel strip. Without the navigation script, the menus and panels remain available in normal document flow.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[The same information architecture moves from persistent sidebars to focused mobile drawers.]]></excerpt:encoded>
 		<wp:post_id>1013</wp:post_id>
 		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
@@ -706,11 +718,115 @@
 		<wp:is_sticky>0</wp:is_sticky>
 	</item>
 	<item>
-		<title><![CDATA[Why Docspress uses Page hierarchy]]></title>
+		<title><![CDATA[Widgets and menus]]></title>
 		<link>https://wordpress.im/docspress/?p=1025</link>
 		<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[docspress]]></dc:creator>
 		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1025</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>Two panels, one content instance each</h2>
+<p>Left Sidebar Widgets adds native widgets after the library tree and optional left menu. Right Sidebar uses the existing sidebar-1 area, so upgrading does not rename or discard its widget instances. Footer Widgets is optional and remains below the entire page shell.</p>
+<p>Use Appearance &gt; Widgets or the Customizer. Both core block widgets and classic widgets are supported. An empty left widget area supplies search; an empty right area supplies site information, feed access, and recent articles. Both panels are enabled by default on every template. The Customizer can explicitly disable either panel.</p>
+
+<h2>Keep navigation roles distinct</h2>
+<p>Assign the Primary Menu to global site navigation. Assign Left Sidebar Menu only when an additional hand-curated library menu is useful; it does not replace the native Page tree. Footer Menu is for secondary destinations. None of these menus is the article's table of contents.</p>
+
+<h2>Choose widgets for a reference library</h2>
+<p>Useful right-panel choices include a short collection description, taxonomy links, a search block, recent updates, and feed links. Keep the number deliberate. A long list still scrolls inside its panel, but the reader should not have to hunt through unrelated material.</p>
+
+<h2>Reading preferences stay native</h2>
+<p>Appearance &gt; Customize &gt; Docspress offers a comfortable or compact reading measure, standard or large body text, article-contents depth, and the last-modified label. These are theme settings, not a new content model. Page content, menus, excerpts, parents, and widgets remain ordinary WordPress data.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Three native widget areas and three independent menu locations, with useful defaults and no content lock-in.]]></excerpt:encoded>
+		<wp:post_id>1025</wp:post_id>
+		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
+		<wp:post_date_gmt>2026-09-16 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>widgets-and-menus</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>1011</wp:post_parent>
+		<wp:menu_order>40</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Maintaining a reference library]]></title>
+		<link>https://wordpress.im/docspress/?p=1026</link>
+		<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[docspress]]></dc:creator>
+		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1026</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>Preserve public addresses</h2>
+<p>Choose descriptive Page slugs and stable HTML anchors. Keep old anchors when renaming a heading. Moving a Page under a new parent can change its URL: plan redirects with WordPress or a suitable plugin before reorganizing a published collection. A theme cannot promise that links survive arbitrary content migrations.</p>
+
+<h2>Separate publication, modification, and review</h2>
+<p>Docspress displays native publication and last-modified dates. Updated means the WordPress record changed; it does not certify that an editor rechecked every claim. For time-sensitive material, write a reviewed-on note, source dates, limitations, and the next review responsibility in the document itself.</p>
+
+<h2>Make the collection findable</h2>
+<p>Use Page parents and Order for a deliberate hierarchy, excerpts for directory summaries, and ordinary Posts for dated observations. Breadcrumbs and previous/next links provide context; search results include content type and public parent context. Categories, tags, and feeds remain native WordPress features rather than private theme records.</p>
+
+<h2>Keep the tree proportional</h2>
+<p>The tree is assembled once per request from published Pages and sorted by Order, title, then stable ID. Large collections shorten unopened deep branches into section links while retaining the current path. For genuinely different collections or advanced indexing, choose a separate plugin after a concrete editorial need appears.</p>
+
+<h2>Keep content independent</h2>
+<p>Back up the database, uploads, and configuration as well as the theme ZIP. Test a theme switch on a staging copy: the documents should still be ordinary readable Pages and Posts. Collections, annotations, redirects, full-text indexes, and versioned records belong in content or plugins, not in a theme-only database scheme.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Preserve addresses, sources, editorial context, and a useful route back to every document.]]></excerpt:encoded>
+		<wp:post_id>1026</wp:post_id>
+		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
+		<wp:post_date_gmt>2026-09-16 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>maintaining-a-reference-library</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>1019</wp:post_parent>
+		<wp:menu_order>40</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[0.9.0 maturity upgrade]]></title>
+		<link>https://wordpress.im/docspress/?p=1027</link>
+		<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[docspress]]></dc:creator>
+		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1027</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>A consistent shell on every template</h2>
+<p>Docspress 0.9.0 brings the library panel and right widget panel to ordinary Posts and Pages, indexes, archives, search and 404 pages. The Primary Menu remains independent. An article's On this page contents is part of that article, not a widget in the right panel.</p>
+
+<h2>Responsive navigation without duplicate content</h2>
+<p>At medium widths the right panel becomes a drawer; on phones both panels do. The left panel is bounded at 70% of the viewport and the right at 88%. Both have a visible close control, a backdrop, Escape, keyboard focus containment and focus return. WordPress's actual visible admin toolbar height is shared by the header, local controls, drawers and anchor offsets.</p>
+
+<h2>Native configuration and durable content</h2>
+<p>Use the three native widget areas and independent menu locations. Existing sidebar-1 widgets retain their IDs. Reading width, type size, article contents and modified-date display are available through the Customizer. Stable explicit anchors, non-destructive heading decoration, search context, published-only trees and bounded large-tree rendering support a long-lived reference collection.</p>
+
+<h2>A candidate, not a directory approval</h2>
+<p>This release is a maturity candidate for the self-hosted demonstration site. Automated checks, isolated WordPress tests and desktop viewport inspection are separate from physical iOS/Android, cross-browser and human accessibility acceptance. No WordPress.org approval or completed 1.0 review is claimed.</p>
+
+<h2>0.9.1 final boundary corrections</h2>
+<p>The current demonstration runs 0.9.1. Untitled Pages keep meaningful labels in the tree, chapter indexes, breadcrumbs and reading-order links. Directory descriptions honor native excerpt filters, and request caches keep locale-specific navigation separate. These changes do not rename URLs or migrate content.</p>
+<p>The project owner chose technical and browser-simulation acceptance instead of physical-phone testing. Chromium, Safari and Firefox rendering, keyboard navigation, toolbar geometry, minimum PHP/WordPress compatibility and package/source consistency were checked. A complete human screen-reader assessment and WordPress.org submission remain separate future work.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[A shared two-panel reading system, independent header navigation, native widgets, and toolbar-aware mobile reading.]]></excerpt:encoded>
+		<wp:post_id>1027</wp:post_id>
+		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
+		<wp:post_date_gmt>2026-09-16 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>0-9-0-maturity-upgrade</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>1023</wp:post_parent>
+		<wp:menu_order>20</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title><![CDATA[Why Docspress uses Page hierarchy]]></title>
+		<link>https://wordpress.im/docspress/?p=1028</link>
+		<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[docspress]]></dc:creator>
+		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1028</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>A documentation tree does not need to begin with a custom database model. WordPress Pages already have parents, ordering, titles, excerpts, revisions, permissions, and familiar editing screens.</p>
 
@@ -718,7 +834,7 @@
 
 <p>This is also a portability decision. If the theme changes, the documents remain Pages. Their relationships remain inspectable. The site does not lose its content because a presentation layer was replaced.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Page hierarchy is visible, portable, and already understood by WordPress editors.]]></excerpt:encoded>
-		<wp:post_id>1025</wp:post_id>
+		<wp:post_id>1028</wp:post_id>
 		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
 		<wp:post_date_gmt>2026-09-16 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
@@ -733,10 +849,10 @@
 	</item>
 	<item>
 		<title><![CDATA[A note on the reading system]]></title>
-		<link>https://wordpress.im/docspress/?p=1026</link>
+		<link>https://wordpress.im/docspress/?p=1029</link>
 		<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[docspress]]></dc:creator>
-		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1026</guid>
+		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1029</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Docspress uses one accent color, soft rules, and generous white space because a document site already has a strong visual subject: the text and the relationships between its sections.</p>
 
@@ -744,7 +860,7 @@
 
 <p>That balance is the design test for future features: does this help the reader locate, understand, or continue the document? If it does none of those things, it probably does not belong in the core theme.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[The visual language is quiet on purpose: the document remains the strongest element on the page.]]></excerpt:encoded>
-		<wp:post_id>1026</wp:post_id>
+		<wp:post_id>1029</wp:post_id>
 		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
 		<wp:post_date_gmt>2026-09-16 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
@@ -759,10 +875,10 @@
 	</item>
 	<item>
 		<title><![CDATA[Docspress 0.1.0 working preview]]></title>
-		<link>https://wordpress.im/docspress/?p=1027</link>
+		<link>https://wordpress.im/docspress/?p=1030</link>
 		<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[docspress]]></dc:creator>
-		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1027</guid>
+		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1030</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>The 0.1.0 preview is the first Docspress-owned source tree. It carries forward the reference design's strongest idea: ordinary WordPress Page hierarchy can become a calm documentation site without a custom post type.</p>
 
@@ -770,7 +886,7 @@
 
 <p>The next gate is the real WordPress site: activate the exact ZIP on the isolated `docspress` subsite, enter this content, and verify the desktop and mobile reading paths.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[A short release note for the first branded preview and its current acceptance boundary.]]></excerpt:encoded>
-		<wp:post_id>1027</wp:post_id>
+		<wp:post_id>1030</wp:post_id>
 		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
 		<wp:post_date_gmt>2026-09-16 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
@@ -785,10 +901,10 @@
 	</item>
 	<item>
 		<title><![CDATA[Maintenance is part of the theme]]></title>
-		<link>https://wordpress.im/docspress/?p=1028</link>
+		<link>https://wordpress.im/docspress/?p=1031</link>
 		<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[docspress]]></dc:creator>
-		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1028</guid>
+		<guid isPermaLink="false">https://wordpress.im/docspress/?p=1031</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>A theme becomes trustworthy when updating it is boring. The package should be named, checked, hashed, and reversible. The site's content should be outside the ZIP. The active version should be known before a new one is uploaded.</p>
 
@@ -796,7 +912,7 @@
 
 <p>The maintenance page is part of the demo because the product is not only a visual surface. It is also a small, understandable operation that a future editor can safely continue.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[A publishable theme needs a rollback story as much as it needs a polished screenshot.]]></excerpt:encoded>
-		<wp:post_id>1028</wp:post_id>
+		<wp:post_id>1031</wp:post_id>
 		<wp:post_date>2026-09-16 00:00:00</wp:post_date>
 		<wp:post_date_gmt>2026-09-16 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>

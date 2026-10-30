@@ -1,0 +1,10 @@
+{
+  "native_pages": 1000,
+  "initial_queries": 1,
+  "repeat_queries": 0,
+  "rendered_nodes": 120,
+  "html_bytes": 59053,
+  "query_tree_render_ms": 18.2,
+  "current_path_retained": true,
+  "result": "PASS"
+}

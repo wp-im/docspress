@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "checks": [
+    "Unset/deleted Docs Root",
+    "Untitled tree, disclosure and section index",
+    "Native excerpt filter honored",
+    "Compact/large reading and explicit sidebar toggles",
+    "TOC off/H2/H2-H3 and zero/one item behavior",
+    "Customizer controls, native capability and whitelist",
+    "Reading setting: latest posts front page",
+    "Native child template and asset resolution"
+  ],
+  "fixtures": "Moved to local Trash; no production changes.",
+  "version": "0.9.1",
+  "date": "2026-10-24"
+}

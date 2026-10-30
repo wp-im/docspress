@@ -1,0 +1,84 @@
+{
+  "version": "0.9.1",
+  "date": "2026-10-24",
+  "anonymous": true,
+  "result": "PASS",
+  "cases": 15,
+  "results": [
+    {
+      "url": "https://wordpress.im/docspress/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/docspress/reading-system/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/docspress/reading-system/responsive-navigation/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/docspress/reading-system/widgets-and-menus/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/docspress/accessibility-and-maintenance/maintaining-a-reference-library/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/docspress/release-notes/0-9-0-maturity-upgrade/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/2026/09/16/maintenance-is-part-of-the-theme/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/notes/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/sample-page/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/category/uncategorized/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/2026/09/",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/?s=reading",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/?s=ZZZXQNONEXISTENT",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/definitely-not-a-page/",
+      "status": 404,
+      "result": "PASS"
+    },
+    {
+      "url": "https://wordpress.im/docspress/author/docspress/",
+      "status": 200,
+      "result": "PASS"
+    }
+  ]
+}

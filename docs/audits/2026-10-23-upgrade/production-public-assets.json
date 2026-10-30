@@ -1,0 +1,82 @@
+[
+  {
+    "file": "style.css",
+    "status": 200,
+    "bytes": 631,
+    "local": "a9159b48ee168941aade41ece45acda46b895787c58abc3d0618b3cce4e99730",
+    "production": "a9159b48ee168941aade41ece45acda46b895787c58abc3d0618b3cce4e99730",
+    "match": true
+  },
+  {
+    "file": "assets/css/main.css",
+    "status": 200,
+    "bytes": 32611,
+    "local": "390c7a47f3ecc29b858cd3ecd84eaf752f57596708e2efe67e3287d686c14212",
+    "production": "390c7a47f3ecc29b858cd3ecd84eaf752f57596708e2efe67e3287d686c14212",
+    "match": true
+  },
+  {
+    "file": "assets/css/editor.css",
+    "status": 200,
+    "bytes": 2055,
+    "local": "23d5f26678779237210d47c94b95c2ce543cc4cb4466c5a148828180ac92ade9",
+    "production": "23d5f26678779237210d47c94b95c2ce543cc4cb4466c5a148828180ac92ade9",
+    "match": true
+  },
+  {
+    "file": "assets/js/navigation.js",
+    "status": 200,
+    "bytes": 10766,
+    "local": "78e5643b61d2bb49dbf6627ff495d29f6cbc89af9f305c00c01e7f206d86594b",
+    "production": "78e5643b61d2bb49dbf6627ff495d29f6cbc89af9f305c00c01e7f206d86594b",
+    "match": true
+  },
+  {
+    "file": "rtl.css",
+    "status": 200,
+    "bytes": 960,
+    "local": "b0bc76ca5d4d81fc10c3714289b63a3962b9b39a1f21f5785663d63db6f90854",
+    "production": "b0bc76ca5d4d81fc10c3714289b63a3962b9b39a1f21f5785663d63db6f90854",
+    "match": true
+  },
+  {
+    "file": "screenshot.png",
+    "status": 200,
+    "bytes": 102889,
+    "local": "3818ab7582933c7408e0f11a08378b605d598a7e84043cf5d278bd924f3237d2",
+    "production": "3818ab7582933c7408e0f11a08378b605d598a7e84043cf5d278bd924f3237d2",
+    "match": true
+  },
+  {
+    "file": "readme.txt",
+    "status": 200,
+    "bytes": 6252,
+    "local": "870d7e561adfc364eef038c4d9ba0406c49141b772c1a33846677199a50e549d",
+    "production": "870d7e561adfc364eef038c4d9ba0406c49141b772c1a33846677199a50e549d",
+    "match": true
+  },
+  {
+    "file": "README.md",
+    "status": 200,
+    "bytes": 3093,
+    "local": "a9dd3ac946bbbfe995bf5c67c3ca7ba5d4fba15cbbd7c5f0f97e3c8a14280ea9",
+    "production": "a9dd3ac946bbbfe995bf5c67c3ca7ba5d4fba15cbbd7c5f0f97e3c8a14280ea9",
+    "match": true
+  },
+  {
+    "file": "languages/docspress.pot",
+    "status": 200,
+    "bytes": 6082,
+    "local": "ed3c14f7d66e3ae7b17e88af3ed001a55a90ce096c001c2b29bef737501c92c7",
+    "production": "ed3c14f7d66e3ae7b17e88af3ed001a55a90ce096c001c2b29bef737501c92c7",
+    "match": true
+  },
+  {
+    "file": "LICENSE",
+    "status": 200,
+    "bytes": 17984,
+    "local": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "production": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "match": true
+  }
+]

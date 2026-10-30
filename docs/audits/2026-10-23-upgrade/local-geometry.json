@@ -1,0 +1,1938 @@
+[
+  {
+    "article": {
+      "display": "block",
+      "h": 8047,
+      "visibility": "visible",
+      "w": 284,
+      "x": 18,
+      "y": -4000.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 320,
+      "x": 0,
+      "y": -4216.5
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 320,
+      "x": 0,
+      "y": 57
+    },
+    "h1": {
+      "display": "block",
+      "h": 73.40625,
+      "visibility": "visible",
+      "w": 284,
+      "x": 18,
+      "y": -4000.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 320,
+      "x": 0,
+      "y": 0
+    },
+    "left": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 224,
+      "x": -228.47999572753903,
+      "y": 0
+    },
+    "main": {
+      "display": "block",
+      "h": 8700.0390625,
+      "visibility": "visible",
+      "w": 284,
+      "x": 18,
+      "y": -4068.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 281.5937194824219,
+      "x": 325.6318664550781,
+      "y": 0
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 320
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 7111.1875,
+      "visibility": "visible",
+      "w": 324,
+      "x": 18,
+      "y": -3480.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 360,
+      "x": 0,
+      "y": -3696.5
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 360,
+      "x": 0,
+      "y": 57
+    },
+    "h1": {
+      "display": "block",
+      "h": 73.40625,
+      "visibility": "visible",
+      "w": 324,
+      "x": 18,
+      "y": -3480.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 360,
+      "x": 0,
+      "y": 0
+    },
+    "left": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 252,
+      "x": -257.0400085449219,
+      "y": 0
+    },
+    "main": {
+      "display": "block",
+      "h": 7764.2265625,
+      "visibility": "visible",
+      "w": 324,
+      "x": 18,
+      "y": -3548.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 316.796875,
+      "x": 366.3359375,
+      "y": 0
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 360
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 7031.4453125,
+      "visibility": "visible",
+      "w": 353.34375,
+      "x": 18.328125,
+      "y": -3480.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 390,
+      "x": 0,
+      "y": -3696.5
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 390,
+      "x": 0,
+      "y": 57
+    },
+    "h1": {
+      "display": "block",
+      "h": 73.40625,
+      "visibility": "visible",
+      "w": 353.34375,
+      "x": 18.328125,
+      "y": -3480.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 390,
+      "x": 0,
+      "y": 0
+    },
+    "left": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 273,
+      "x": -278.4599914550781,
+      "y": 0
+    },
+    "main": {
+      "display": "block",
+      "h": 7657.2890625,
+      "visibility": "visible",
+      "w": 353.34375,
+      "x": 18.328125,
+      "y": -3548.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 343.1953125,
+      "x": 396.8638916015625,
+      "y": 0
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 390
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 6101.71875,
+      "visibility": "visible",
+      "w": 389.59375,
+      "x": 20.203125,
+      "y": -3480.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 430,
+      "x": 0,
+      "y": -3696.5
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 430,
+      "x": 0,
+      "y": 57
+    },
+    "h1": {
+      "display": "block",
+      "h": 73.40625,
+      "visibility": "visible",
+      "w": 389.59375,
+      "x": 20.203125,
+      "y": -3480.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 430,
+      "x": 0,
+      "y": 0
+    },
+    "left": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 301,
+      "x": -307.0199890136719,
+      "y": 0
+    },
+    "main": {
+      "display": "block",
+      "h": 6727.5625,
+      "visibility": "visible",
+      "w": 389.59375,
+      "x": 20.203125,
+      "y": -3548.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 378.3984680175781,
+      "x": 437.5679626464844,
+      "y": 0
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 430
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5101.7734375,
+      "visibility": "visible",
+      "w": 551,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 599,
+      "x": 0,
+      "y": -3696.5
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 599,
+      "x": 0,
+      "y": 57
+    },
+    "h1": {
+      "display": "block",
+      "h": 41.6640625,
+      "visibility": "visible",
+      "w": 551,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 599,
+      "x": 0,
+      "y": 0
+    },
+    "left": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 0
+    },
+    "main": {
+      "display": "block",
+      "h": 5700.421875,
+      "visibility": "visible",
+      "w": 551,
+      "x": 24,
+      "y": -3548.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 606.6799926757812,
+      "y": 0
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 599
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5102.5234375,
+      "visibility": "visible",
+      "w": 552,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 600,
+      "x": 0,
+      "y": -3696.5
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 600,
+      "x": 0,
+      "y": 57
+    },
+    "h1": {
+      "display": "block",
+      "h": 41.6640625,
+      "visibility": "visible",
+      "w": 552,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 600,
+      "x": 0,
+      "y": 0
+    },
+    "left": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 0
+    },
+    "main": {
+      "display": "block",
+      "h": 5701.171875,
+      "visibility": "visible",
+      "w": 552,
+      "x": 24,
+      "y": -3548.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 844,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 607.6799926757812,
+      "y": 0
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 600
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5103.2734375,
+      "visibility": "visible",
+      "w": 553,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 601,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 601,
+      "x": 0,
+      "y": 103
+    },
+    "h1": {
+      "display": "block",
+      "h": 41.6640625,
+      "visibility": "visible",
+      "w": 553,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 601,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "visible",
+      "w": 320,
+      "x": -302.0423889160156,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 5701.921875,
+      "visibility": "visible",
+      "w": 553,
+      "x": 24,
+      "y": -3548.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "visible",
+      "w": 384,
+      "x": 579.4508666992188,
+      "y": 46
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 601
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5132.5234375,
+      "visibility": "visible",
+      "w": 592,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 640,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 640,
+      "x": 0,
+      "y": 103
+    },
+    "h1": {
+      "display": "block",
+      "h": 41.6640625,
+      "visibility": "visible",
+      "w": 592,
+      "x": 24,
+      "y": -3480.3515625
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 640,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 5731.171875,
+      "visibility": "visible",
+      "w": 592,
+      "x": 24,
+      "y": -3548.5
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 647.6799926757812,
+      "y": 46
+    },
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-zh/",
+    "width": 640
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 6129.5078125,
+      "visibility": "visible",
+      "w": 591,
+      "x": 24,
+      "y": 216.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 639,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 639,
+      "x": 0,
+      "y": 103
+    },
+    "h1": {
+      "display": "block",
+      "h": 83.328125,
+      "visibility": "visible",
+      "w": 591,
+      "x": 24,
+      "y": 216.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 639,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 6728.15625,
+      "visibility": "visible",
+      "w": 591,
+      "x": 24,
+      "y": 148
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 646.6799926757812,
+      "y": 46
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 639
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 6131.0078125,
+      "visibility": "visible",
+      "w": 593,
+      "x": 24,
+      "y": 216.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 641,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 641,
+      "x": 0,
+      "y": 103
+    },
+    "h1": {
+      "display": "block",
+      "h": 83.328125,
+      "visibility": "visible",
+      "w": 593,
+      "x": 24,
+      "y": 216.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 641,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 6729.65625,
+      "visibility": "visible",
+      "w": 593,
+      "x": 24,
+      "y": 148
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 648.6799926757812,
+      "y": 46
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 641
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5965.5390625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 43.5,
+      "y": 216.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 767,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 767,
+      "x": 0,
+      "y": 103
+    },
+    "h1": {
+      "display": "block",
+      "h": 83.328125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 43.5,
+      "y": 216.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 57,
+      "visibility": "visible",
+      "w": 767,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 6536.9921875,
+      "visibility": "visible",
+      "w": 719,
+      "x": 24,
+      "y": 148
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 774.6799926757812,
+      "y": 46
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 767
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 44,
+      "y": 234.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 768,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 768,
+      "x": 0,
+      "y": 111
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 44,
+      "y": 234.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 768,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 720,
+      "x": 24,
+      "y": 156
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 775.6799926757812,
+      "y": 46
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 768
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 44.5,
+      "y": 234.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 769,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 769,
+      "x": 0,
+      "y": 111
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 44.5,
+      "y": 234.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 769,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 721,
+      "x": 24,
+      "y": 156
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 776.6799926757812,
+      "y": 46
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 769
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 50.5,
+      "y": 234.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 781,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 781,
+      "x": 0,
+      "y": 111
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 50.5,
+      "y": 234.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 781,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 733,
+      "x": 24,
+      "y": 156
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 788.6799926757812,
+      "y": 46
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 781
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 51,
+      "y": 234.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 46,
+      "visibility": "visible",
+      "w": 782,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 782,
+      "x": 0,
+      "y": 111
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 51,
+      "y": 234.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 782,
+      "x": 0,
+      "y": 46
+    },
+    "left": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 46
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 734,
+      "x": 24,
+      "y": 156
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 798,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 789.6799926757812,
+      "y": 46
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 782
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 51.5,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 783,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 783,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 51.5,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 783,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 32
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 735,
+      "x": 24,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 790.6799926757812,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 783
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 150,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 980,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 980,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 150,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 980,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 32
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 932,
+      "x": 24,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 987.6799926757812,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 980
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 150.5,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 981,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 981,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 150.5,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 981,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 32
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 933,
+      "x": 24,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 383.99993896484375,
+      "x": 988.6799926757812,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 981
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 171.5,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1023,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 1023,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 171.5,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1023,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 320,
+      "x": -326.3999938964844,
+      "y": 32
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 975,
+      "x": 24,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 1030.679931640625,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1023
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 296,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1024,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 1024,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 296,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1024,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 512.9921875,
+      "visibility": "visible",
+      "w": 220,
+      "x": 28,
+      "y": 158
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 720,
+      "x": 276,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 1031.679931640625,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1024
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5860.65625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 296.5,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1025,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 1025,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 71.03125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 296.5,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1025,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 512.9921875,
+      "visibility": "visible",
+      "w": 220,
+      "x": 28,
+      "y": 158
+    },
+    "main": {
+      "display": "block",
+      "h": 6462.109375,
+      "visibility": "visible",
+      "w": 721,
+      "x": 276,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 1032.679931640625,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1025
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5872.5625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 82.9375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1280,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 512.9921875,
+      "visibility": "visible",
+      "w": 220,
+      "x": 28,
+      "y": 158
+    },
+    "main": {
+      "display": "block",
+      "h": 6474.015625,
+      "visibility": "visible",
+      "w": 976,
+      "x": 276,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 1287.679931640625,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1280
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5872.625,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424.5,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1281,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 1281,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 83,
+      "visibility": "visible",
+      "w": 680,
+      "x": 424.5,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1281,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 512.9921875,
+      "visibility": "visible",
+      "w": 220,
+      "x": 28,
+      "y": 158
+    },
+    "main": {
+      "display": "block",
+      "h": 6474.078125,
+      "visibility": "visible",
+      "w": 977,
+      "x": 276,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 1288.679931640625,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1281
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5882.859375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 503.5,
+      "y": 220.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1439,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "block",
+      "h": 45,
+      "visibility": "visible",
+      "w": 1439,
+      "x": 0,
+      "y": 97
+    },
+    "h1": {
+      "display": "block",
+      "h": 93.234375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 503.5,
+      "y": 220.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1439,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 512.9921875,
+      "visibility": "visible",
+      "w": 220,
+      "x": 28,
+      "y": 158
+    },
+    "main": {
+      "display": "block",
+      "h": 6484.3125,
+      "visibility": "visible",
+      "w": 1135,
+      "x": 276,
+      "y": 142
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 812,
+      "visibility": "hidden",
+      "w": 384,
+      "x": 1446.679931640625,
+      "y": 32
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1439
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5882.9375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 380,
+      "y": 175.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "none",
+      "h": 0,
+      "visibility": "visible",
+      "w": 0,
+      "x": 0,
+      "y": 0
+    },
+    "h1": {
+      "display": "block",
+      "h": 93.3125,
+      "visibility": "visible",
+      "w": 680,
+      "x": 380,
+      "y": 175.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1440,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 472.9921875,
+      "visibility": "visible",
+      "w": 240,
+      "x": 28,
+      "y": 113
+    },
+    "main": {
+      "display": "block",
+      "h": 6484.390625,
+      "visibility": "visible",
+      "w": 840,
+      "x": 300,
+      "y": 97
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 561.4453125,
+      "visibility": "visible",
+      "w": 240,
+      "x": 1172,
+      "y": 113
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1440
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5883,
+      "visibility": "visible",
+      "w": 680,
+      "x": 380.5,
+      "y": 175.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1441,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "none",
+      "h": 0,
+      "visibility": "visible",
+      "w": 0,
+      "x": 0,
+      "y": 0
+    },
+    "h1": {
+      "display": "block",
+      "h": 93.375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 380.5,
+      "y": 175.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1441,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 472.9921875,
+      "visibility": "visible",
+      "w": 240,
+      "x": 28,
+      "y": 113
+    },
+    "main": {
+      "display": "block",
+      "h": 6484.453125,
+      "visibility": "visible",
+      "w": 841,
+      "x": 300,
+      "y": 97
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 561.4453125,
+      "visibility": "visible",
+      "w": 240,
+      "x": 1173,
+      "y": 113
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1441
+  },
+  {
+    "article": {
+      "display": "block",
+      "h": 5891.375,
+      "visibility": "visible",
+      "w": 680,
+      "x": 620,
+      "y": 175.1484375
+    },
+    "bar": {
+      "display": "block",
+      "h": 32,
+      "visibility": "visible",
+      "w": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "controls": {
+      "display": "none",
+      "h": 0,
+      "visibility": "visible",
+      "w": 0,
+      "x": 0,
+      "y": 0
+    },
+    "h1": {
+      "display": "block",
+      "h": 101.75,
+      "visibility": "visible",
+      "w": 680,
+      "x": 620,
+      "y": 175.1484375
+    },
+    "header": {
+      "display": "block",
+      "h": 65,
+      "visibility": "visible",
+      "w": 1920,
+      "x": 0,
+      "y": 32
+    },
+    "left": {
+      "display": "block",
+      "h": 472.9921875,
+      "visibility": "visible",
+      "w": 240,
+      "x": 238,
+      "y": 113
+    },
+    "main": {
+      "display": "block",
+      "h": 6492.828125,
+      "visibility": "visible",
+      "w": 900,
+      "x": 510,
+      "y": 97
+    },
+    "overflow": 0,
+    "right": {
+      "display": "block",
+      "h": 561.4453125,
+      "visibility": "visible",
+      "w": 240,
+      "x": 1442,
+      "y": 113
+    },
+    "scrollY": 0,
+    "tocInArticle": true,
+    "tocInSidebar": false,
+    "url": "/reading-fixture-en/",
+    "width": 1920
+  }
+]

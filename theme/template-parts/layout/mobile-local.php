@@ -1,26 +1,21 @@
 <?php
 /**
- * Local navigation bar shown after the desktop docs sidebar collapses.
+ * Independent left/right controls on every compact page.
  *
  * @package Docspress
  */
 
-$show_toc = ! empty( $args['show_toc'] );
-$root_id  = docspress_get_docs_root_id();
+if ( ! docspress_sidebar_enabled( 'left' ) && ! docspress_sidebar_enabled( 'right' ) ) {
+	return;
+}
 ?>
-<div class="mobile-local">
-	<div class="mobile-local-inner<?php echo $show_toc ? '' : ' is-single'; ?>">
-			<button class="local-trigger" id="chapterMenuBtn" type="button" aria-controls="chapterDrawer" aria-expanded="false">
-				<span class="icon icon-menu" aria-hidden="true"></span>
-			<span><?php esc_html_e( 'Contents', 'docspress' ); ?></span>
-		</button>
-		<?php if ( $show_toc ) : ?>
-			<button class="local-trigger" id="tocMenuBtn" type="button" aria-controls="tocDrawer" aria-expanded="false">
-				<span><?php esc_html_e( 'On this page', 'docspress' ); ?></span>
-					<span class="icon icon-toc" aria-hidden="true"></span>
-			</button>
-		<?php elseif ( $root_id ) : ?>
-			<span class="local-context"><?php echo esc_html( get_the_title( $root_id ) ); ?></span>
+<div class="docspress-sidebar-controls" id="docspress-sidebar-controls">
+	<div>
+		<?php if ( docspress_sidebar_enabled( 'left' ) ) : ?>
+			<button class="docspress-sidebar-trigger docspress-trigger--left" type="button" aria-expanded="false" aria-controls="docspress-leftbar" data-panel-open="left"><span class="docspress-menu-icon" aria-hidden="true"></span><?php esc_html_e( 'Library', 'docspress' ); ?></button>
+		<?php endif; ?>
+		<?php if ( docspress_sidebar_enabled( 'right' ) ) : ?>
+			<button class="docspress-sidebar-trigger docspress-trigger--right" type="button" aria-expanded="false" aria-controls="docspress-rightbar" data-panel-open="right"><?php esc_html_e( 'Sidebar', 'docspress' ); ?><span class="docspress-menu-icon" aria-hidden="true"></span></button>
 		<?php endif; ?>
 	</div>
 </div>

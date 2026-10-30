@@ -6,7 +6,14 @@
  */
 
 ?>
+	</main>
+	<?php get_sidebar(); ?>
+</div>
+<div class="docspress-backdrop" id="docspress-backdrop" hidden></div>
 <footer class="site-footer">
+	<?php if ( is_active_sidebar( 'docspress-footer' ) ) : ?>
+		<div class="docspress-footer-widgets"><?php dynamic_sidebar( 'docspress-footer' ); ?></div>
+	<?php endif; ?>
 	<div class="footer-inner">
 		<div>
 			<?php

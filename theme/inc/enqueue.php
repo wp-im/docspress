@@ -50,6 +50,10 @@ function docspress_enqueue_assets() {
 		docspress_asset_version( '/assets/js/navigation.js' ),
 		true
 	);
+	wp_localize_script( 'docspress-navigation', 'docspressNavigation', array( 'scrollRegion' => __( 'Scrollable content. Use the arrow keys to read more.', 'docspress' ) ) );
+	if ( is_rtl() ) {
+		wp_enqueue_style( 'docspress-rtl', get_theme_file_uri( '/rtl.css' ), array( 'docspress-main' ), docspress_asset_version( '/rtl.css' ) );
+	}
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

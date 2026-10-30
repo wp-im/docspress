@@ -1,0 +1,248 @@
+[
+  {
+    "file": "style.css",
+    "local": "d49d114dc950cd7ea718713bf9651ecd6d0af4aae912ffaf9b1a050b500247c5",
+    "production": "d49d114dc950cd7ea718713bf9651ecd6d0af4aae912ffaf9b1a050b500247c5",
+    "match": true
+  },
+  {
+    "file": "functions.php",
+    "local": "e3977b72fd6a56adfe059cbf9d0fc6ff1bc6ddae1a59c63420fb50446c2cbaaf",
+    "production": "e3977b72fd6a56adfe059cbf9d0fc6ff1bc6ddae1a59c63420fb50446c2cbaaf",
+    "match": true
+  },
+  {
+    "file": "assets/css/editor.css",
+    "local": "23d5f26678779237210d47c94b95c2ce543cc4cb4466c5a148828180ac92ade9",
+    "production": "23d5f26678779237210d47c94b95c2ce543cc4cb4466c5a148828180ac92ade9",
+    "match": true
+  },
+  {
+    "file": "assets/css/main.css",
+    "local": "390c7a47f3ecc29b858cd3ecd84eaf752f57596708e2efe67e3287d686c14212",
+    "production": "390c7a47f3ecc29b858cd3ecd84eaf752f57596708e2efe67e3287d686c14212",
+    "match": true
+  },
+  {
+    "file": "assets/js/navigation.js",
+    "local": "78e5643b61d2bb49dbf6627ff495d29f6cbc89af9f305c00c01e7f206d86594b",
+    "production": "78e5643b61d2bb49dbf6627ff495d29f6cbc89af9f305c00c01e7f206d86594b",
+    "match": true
+  },
+  {
+    "file": "rtl.css",
+    "local": "b0bc76ca5d4d81fc10c3714289b63a3962b9b39a1f21f5785663d63db6f90854",
+    "production": "b0bc76ca5d4d81fc10c3714289b63a3962b9b39a1f21f5785663d63db6f90854",
+    "match": true
+  },
+  {
+    "file": "README.md",
+    "local": "784f690607b100c45c2a0af9625174d838087f796c889afc200e0622fac33e17",
+    "production": "784f690607b100c45c2a0af9625174d838087f796c889afc200e0622fac33e17",
+    "match": true
+  },
+  {
+    "file": "404.php",
+    "local": "83c00634bc0f6bfb0b6243a80b41ceb130c08b5be805797acfd027d7aeb68316",
+    "production": "83c00634bc0f6bfb0b6243a80b41ceb130c08b5be805797acfd027d7aeb68316",
+    "match": true
+  },
+  {
+    "file": "archive.php",
+    "local": "66a793dd3f52888d6556a129ff45a472f2c194cb905584190c5ee4293405ebbb",
+    "production": "66a793dd3f52888d6556a129ff45a472f2c194cb905584190c5ee4293405ebbb",
+    "match": true
+  },
+  {
+    "file": "comments.php",
+    "local": "5e1f1f83191ecd4b4619e0cbe6c69994bd2f65fdcf5190a351bf882204583207",
+    "production": "5e1f1f83191ecd4b4619e0cbe6c69994bd2f65fdcf5190a351bf882204583207",
+    "match": true
+  },
+  {
+    "file": "footer.php",
+    "local": "8d1107398665a4e4f2cefed187172b5cfc839625a815aa6159dca30043019d53",
+    "production": "8d1107398665a4e4f2cefed187172b5cfc839625a815aa6159dca30043019d53",
+    "match": true
+  },
+  {
+    "file": "front-page.php",
+    "local": "a3f90425c10b09047d746243ff344f5b73e5066254f1b092ab58e1b3162e0383",
+    "production": "a3f90425c10b09047d746243ff344f5b73e5066254f1b092ab58e1b3162e0383",
+    "match": true
+  },
+  {
+    "file": "header.php",
+    "local": "2c66e47c9ad5d30e4f54dd95db1f710d3af5ca6159801e256c6dce66bf326df7",
+    "production": "2c66e47c9ad5d30e4f54dd95db1f710d3af5ca6159801e256c6dce66bf326df7",
+    "match": true
+  },
+  {
+    "file": "home.php",
+    "local": "24b75d5fcb9672e05f2dc91e983477462e999e8420fd05f6ba8d5c16e45f4520",
+    "production": "24b75d5fcb9672e05f2dc91e983477462e999e8420fd05f6ba8d5c16e45f4520",
+    "match": true
+  },
+  {
+    "file": "inc/customizer.php",
+    "local": "47b17682e945eca31230c7d9e503ad4a68751c6aaccbac03b546baa96cee4110",
+    "production": "47b17682e945eca31230c7d9e503ad4a68751c6aaccbac03b546baa96cee4110",
+    "match": true
+  },
+  {
+    "file": "inc/docs.php",
+    "local": "00f141fa5b6f6501c30ee5eba7bcf3fdd7b0ed6e8de785fb6bdb4f90a2adfdf6",
+    "production": "00f141fa5b6f6501c30ee5eba7bcf3fdd7b0ed6e8de785fb6bdb4f90a2adfdf6",
+    "match": true
+  },
+  {
+    "file": "inc/enqueue.php",
+    "local": "4e16fbfcd261bdd9ec56ea68154f038c4cc9c9fd16d40876fdf00596dfa5f7de",
+    "production": "4e16fbfcd261bdd9ec56ea68154f038c4cc9c9fd16d40876fdf00596dfa5f7de",
+    "match": true
+  },
+  {
+    "file": "inc/setup.php",
+    "local": "032467099827cc2627ce7016fdbd07d331a9310086de712102a59cb529ce7953",
+    "production": "032467099827cc2627ce7016fdbd07d331a9310086de712102a59cb529ce7953",
+    "match": true
+  },
+  {
+    "file": "inc/template-tags.php",
+    "local": "8ccc80874ec70b7ce11353c5d8a7af71ed5e4cd16516348b80e8a4a094a45e3c",
+    "production": "8ccc80874ec70b7ce11353c5d8a7af71ed5e4cd16516348b80e8a4a094a45e3c",
+    "match": true
+  },
+  {
+    "file": "inc/toc.php",
+    "local": "81b527f4c0b9506c263ecc61ae1142be429fcfd945b4681f0eb752e2be5ee571",
+    "production": "81b527f4c0b9506c263ecc61ae1142be429fcfd945b4681f0eb752e2be5ee571",
+    "match": true
+  },
+  {
+    "file": "inc/widgets.php",
+    "local": "bf9f36d8aa7dcf9048f89a26cfa2335a4046695a6f1987485497c150357f40f7",
+    "production": "bf9f36d8aa7dcf9048f89a26cfa2335a4046695a6f1987485497c150357f40f7",
+    "match": true
+  },
+  {
+    "file": "index.php",
+    "local": "af02cc7658f725dcce3aa574142f320bec767ae851ca80904bdd4904d6063d15",
+    "production": "af02cc7658f725dcce3aa574142f320bec767ae851ca80904bdd4904d6063d15",
+    "match": true
+  },
+  {
+    "file": "page-templates/docs-section.php",
+    "local": "70306508ed5b3ebbb7ee3417042b6538acc466a0bede8a7db23c9e0d7517dbf5",
+    "production": "70306508ed5b3ebbb7ee3417042b6538acc466a0bede8a7db23c9e0d7517dbf5",
+    "match": true
+  },
+  {
+    "file": "page.php",
+    "local": "7d9ea2a2af1ba5e4a6bc35d5431603f0dff9c55b957d313ea061360418c99cc9",
+    "production": "7d9ea2a2af1ba5e4a6bc35d5431603f0dff9c55b957d313ea061360418c99cc9",
+    "match": true
+  },
+  {
+    "file": "search.php",
+    "local": "d6304c36abf2400b239c3ccb3a47e4c418d33cbdce9a9bbca2b52a4b2c653e05",
+    "production": "d6304c36abf2400b239c3ccb3a47e4c418d33cbdce9a9bbca2b52a4b2c653e05",
+    "match": true
+  },
+  {
+    "file": "searchform.php",
+    "local": "a81a9b265f54a28b56f7815f82bef8b4880dd8dda3298ff5f89335921e07b77b",
+    "production": "a81a9b265f54a28b56f7815f82bef8b4880dd8dda3298ff5f89335921e07b77b",
+    "match": true
+  },
+  {
+    "file": "sidebar-left.php",
+    "local": "2a1fcb4f69b93ed400c5b05f79c912ac26beaed0f262cf8456d555d3ede63626",
+    "production": "2a1fcb4f69b93ed400c5b05f79c912ac26beaed0f262cf8456d555d3ede63626",
+    "match": true
+  },
+  {
+    "file": "sidebar.php",
+    "local": "da62b402f73e5a9ce2c0c9ccc3ba41af65cacfc6ce0e2bc2c57a339b2b649201",
+    "production": "da62b402f73e5a9ce2c0c9ccc3ba41af65cacfc6ce0e2bc2c57a339b2b649201",
+    "match": true
+  },
+  {
+    "file": "single.php",
+    "local": "fefd0a3f1f84a3314c7c1b56af47f5e9e0be5bba720dbb74a0ff4a547ba813d5",
+    "production": "fefd0a3f1f84a3314c7c1b56af47f5e9e0be5bba720dbb74a0ff4a547ba813d5",
+    "match": true
+  },
+  {
+    "file": "template-parts/content/content-docs.php",
+    "local": "a00c36a3586f1d3adb0a80aca861e5870b6888aa74a0156ac681273fb93d0a90",
+    "production": "a00c36a3586f1d3adb0a80aca861e5870b6888aa74a0156ac681273fb93d0a90",
+    "match": true
+  },
+  {
+    "file": "template-parts/content/content-none.php",
+    "local": "096818e15e51cbe3d70628914e9bb0758ce0b0e4f8184605f1b8aff90f628e44",
+    "production": "096818e15e51cbe3d70628914e9bb0758ce0b0e4f8184605f1b8aff90f628e44",
+    "match": true
+  },
+  {
+    "file": "template-parts/content/content-page.php",
+    "local": "9217c9f5e5e87a0dc1e43a91c05613cead6ed728c636148d050bfd2200ff33dc",
+    "production": "9217c9f5e5e87a0dc1e43a91c05613cead6ed728c636148d050bfd2200ff33dc",
+    "match": true
+  },
+  {
+    "file": "template-parts/content/content-post.php",
+    "local": "6b3dd60463449cee90bd1dd27f193b7a6bb2c5844d96eba9c33985cd619a1972",
+    "production": "6b3dd60463449cee90bd1dd27f193b7a6bb2c5844d96eba9c33985cd619a1972",
+    "match": true
+  },
+  {
+    "file": "template-parts/content/content-summary.php",
+    "local": "0172052be31ec7613195ff386f3fd51fe562562ca0b08e00b9505fd33fbb8fff",
+    "production": "0172052be31ec7613195ff386f3fd51fe562562ca0b08e00b9505fd33fbb8fff",
+    "match": true
+  },
+  {
+    "file": "template-parts/layout/docs-sidebar.php",
+    "local": "d65ac261ffe1648122b2b7e24a2dc2bc33b45b72545f070adc056a2a5c19c3bc",
+    "production": "d65ac261ffe1648122b2b7e24a2dc2bc33b45b72545f070adc056a2a5c19c3bc",
+    "match": true
+  },
+  {
+    "file": "template-parts/layout/mobile-local.php",
+    "local": "0f741e4565b5a6bb46d8ee96719004a29208412d224e23880310e39d8a660a1f",
+    "production": "0f741e4565b5a6bb46d8ee96719004a29208412d224e23880310e39d8a660a1f",
+    "match": true
+  },
+  {
+    "file": "template-parts/layout/posts-index.php",
+    "local": "79680b7fcbcd0702dd468d7bd636e13c88989d5421de7dcaef05d582cfa3b9d0",
+    "production": "79680b7fcbcd0702dd468d7bd636e13c88989d5421de7dcaef05d582cfa3b9d0",
+    "match": true
+  },
+  {
+    "file": "template-parts/navigation/docs-tree.php",
+    "local": "8da94381a9e3d96c273476683aeb95a4a321da64ead7c6f1199acaa185f8f64d",
+    "production": "8da94381a9e3d96c273476683aeb95a4a321da64ead7c6f1199acaa185f8f64d",
+    "match": true
+  },
+  {
+    "file": "template-parts/navigation/page-toc.php",
+    "local": "be997c24ca48073a9387b1244537e25e4b4c337163a85d31c59c7b80b025aae7",
+    "production": "be997c24ca48073a9387b1244537e25e4b4c337163a85d31c59c7b80b025aae7",
+    "match": true
+  },
+  {
+    "file": "template-parts/navigation/prev-next.php",
+    "local": "47c3a1024ccf111bfb24174ea8c5d40ac97419ef41b4c36522f5bdf2715015d5",
+    "production": "47c3a1024ccf111bfb24174ea8c5d40ac97419ef41b4c36522f5bdf2715015d5",
+    "match": true
+  },
+  {
+    "file": "readme.txt",
+    "local": "76842b56406b237447631ce0fec5b40387e376f5defb9cef4734403249f5436d",
+    "production": "76842b56406b237447631ce0fec5b40387e376f5defb9cef4734403249f5436d",
+    "match": true
+  }
+]

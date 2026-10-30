@@ -13,7 +13,7 @@ $instance   = isset( $args['instance'] ) ? sanitize_html_class( (string) $args['
 
 if ( $root_id ) :
 	?>
-	<a class="docs-root-link" href="<?php echo esc_url( get_permalink( $root_id ) ); ?>"><?php echo esc_html( get_the_title( $root_id ) ); ?></a>
+	<a class="docs-root-link" href="<?php echo esc_url( get_permalink( $root_id ) ); ?>"><?php echo esc_html( docspress_get_title( $root_id ) ); ?></a>
 	<?php
 endif;
 

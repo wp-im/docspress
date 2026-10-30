@@ -28,7 +28,8 @@ Docspress
 ├── Reading system
 │   ├── Reading surface
 │   ├── Responsive navigation
-│   └── Images, tables, and quotes
+│   ├── Images, tables, and quotes
+│   └── Widgets and menus
 ├── Classic Theme architecture
 │   ├── Template hierarchy
 │   ├── Theme and plugin boundary
@@ -36,9 +37,11 @@ Docspress
 ├── Accessibility and maintenance
 │   ├── Keyboard and screen readers
 │   ├── Safe content output
-│   └── Updates, backups, and rollback
+│   ├── Updates, backups, and rollback
+│   └── Maintaining a reference library
 └── Release notes
-    └── 0.1.0 working preview
+    ├── 0.1.0 working preview
+    └── 0.9.0 maturity upgrade (includes 0.9.1 corrections)
 ```
 
 ## Acceptance intent
@@ -47,4 +50,6 @@ The first live pass should verify that the root page shows all six sections, sec
 
 The standalone `Notes` Page is the Posts Page. It stays outside the Docs Root and gives the ordinary Posts a visible home without mixing them into the documentation tree.
 
-For the live setup, regenerate `docspress-demo.xml` with `node scripts/build-wxr.js`, then use the WordPress Importer on the new subsite. The importer should map the `docspress` author to the existing site administrator; it must not create a new user. After import, set `Docspress` as the static front page and Docs Root, and set `Notes` as the Posts Page. The local acceptance pass also supports the idempotent `scripts/seed-site-content.php` helper when WP-CLI access is available.
+For a **new, empty site**, regenerate `docspress-demo.xml` with `node scripts/build-wxr.js`, then use the WordPress Importer. Map the `docspress` author to an existing site administrator; do not create a user. Then configure the static front page, Docs Root and Notes Posts Page. The local acceptance pass also supports `scripts/seed-site-content.php`, whose hierarchy lookup is idempotent.
+
+The WXR has 31 entries (27 Pages, 4 Posts), deterministic fixture IDs and the original demonstration date. It is not a production database snapshot or an incremental updater. Never re-import it wholesale into an established site: preserve actual production IDs, dates, URLs and revisions. The 2026-10-23/24 upgrade updated the two existing navigation/TOC Pages and one maintenance Post through the native editor, and created only three new documentation Pages. Details are in the final acceptance report.
