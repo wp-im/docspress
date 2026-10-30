@@ -9,3 +9,5 @@ The owner authorized repository synchronization on 2026-10-30, superseding the O
 - Reference packages and production content exports remain local-only; no WordPress.org submission.
 
 The prior full runtime/source evidence remains in `docs/audits/2026-10-23-upgrade/ACCEPTANCE.md`; its no-push statement describes the original delivery, not this authorized follow-up. No redundant production installation is needed when the verified deployment already matches.
+
+Repository synchronization completed: `main` points to commit `647bb8fa33d393c74597dcc095b6769e7de58d3f`; annotated tag `v0.9.1` was also pushed. GitHub Release creation was attempted through the normal CLI/API and returned HTTP 500 even after the tag existed; the Release page/assets are not claimed published. The reviewed install ZIP remains locally available. This service error does not undo the verified source/tag push or matching production deployment.
